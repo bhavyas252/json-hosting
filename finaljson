@@ -1,0 +1,1918 @@
+[[
+   {
+      "application":"Telegram",
+      "factor":"Email Address",
+      "ground truth":"Yellow",
+      "snippet":"This address will only be used to send you a password recovery code if you forget it...we may ask some users to provide an email address to receive login codes via email instead of SMS...will only be used to send you authentication codes when you log in to your account."
+   },
+   {
+      "application":"Telegram",
+      "factor":"Credit Card Number and Home Address",
+      "ground truth":"Green",
+      "snippet":"Neither Telegram nor the merchants on the platform (bot developers) have access to this information...Your credit card information never reaches Telegram's servers. We do not access and do not store your credit card information."
+   },
+   {
+      "application":"Telegram",
+      "factor":"Social Security Number",
+      "ground truth":"Green",
+      "snippet":"We don't want to know your real name, gender, age or what you like."
+   },
+   {
+      "application":"Telegram",
+      "factor":"Ads and Marketing",
+      "ground truth":"Green",
+      "snippet":"We don't use your data to show you ads...No user data is mined or analyzed to display ads or sponsored messages."
+   },
+   {
+      "application":"Telegram",
+      "factor":"Location",
+      "ground truth":"Yellow",
+      "snippet":"If you share a location in a chat, this location data is treated like other messages...If you share your Live Location...Telegram will use your data to display your location to those users with whom you are sharing it..."
+   },
+   {
+      "application":"Telegram",
+      "factor":"Collecting PII of Children",
+      "ground truth":"Yellow",
+      "snippet":"You can add your birthday (with or without the year) to your Telegram profile if you wish to do so. We may use data about your age to determine your eligibility for accessing age-specific content."
+   },
+   {
+      "application":"Telegram",
+      "factor":"Sharing with Law Enforcement",
+      "ground truth":"Yellow",
+      "snippet":"If Telegram receives a valid order from the relevant judicial authorities...we will perform a legal analysis of the request and may disclose your IP address and phone number..."
+   },
+   {
+      "application":"Telegram",
+      "factor":"Policy Change Notification",
+      "ground truth":"Yellow",
+      "snippet":"Any changes to this Privacy Policy will become effective when we post the revised Privacy Policy on this page...Important changes made to this Privacy Policy will be notified to you via Telegram."
+   },
+   {
+      "application":"Telegram",
+      "factor":"Control of Data",
+      "ground truth":"Green",
+      "snippet":"You have a right to: (2) delete...or amend your personal data...You can control how your data is used (e.g., delete synced contacts) in Settings > Privacy & Security > Data Settings..."
+   },
+   {
+      "application":"Telegram",
+      "factor":"Data Aggregation",
+      "ground truth":"Yellow",
+      "snippet":"We may also store some aggregated metadata to create Telegram features...We may use some aggregated data about how you use Telegram to build useful features."
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"My bath and body works",
+         "risk_level":"Yellow",
+         "justification":"Collected for various purposes including online orders, account management, email offers, and marketing.",
+         "snippet":"When you visit our Services, make purchases, or create a loyalty account, you may provide us with certain personal information, such as your name, birthday, address, phone number, email address, personal preferences...subscribe to email offers..."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"My bath and body works",
+         "risk_level":"Yellow",
+         "justification":"Collected for processing payments and shipping orders.",
+         "snippet":"...payment card number, purchase and ordering information...When you check out with your online order..."
+      },
+      "Social Security Number":{
+         "application":"My bath and body works",
+         "risk_level":"Red",
+         "justification":"Collected as sensitive personal information.",
+         "snippet":"Sensitive personal information (including, for example, social security number..."
+      },
+      "Ads and Marketing":{
+         "application":"My bath and body works",
+         "risk_level":"Red",
+         "justification":"PII is used for targeted advertising and shared with third-party advertising companies and other marketers.",
+         "snippet":"We contract with third-party advertising companies, which may collect information about your use and interactions with the Services over time and across third-party websites and online services...We may sell or share your personal information (such as your name, postal address, and summary purchase information) with other merchants..."
+      },
+      "Location":{
+         "application":"My bath and body works",
+         "risk_level":"Yellow",
+         "justification":"Approximate and precise geolocation may be collected with permission.",
+         "snippet":"We may obtain information about your approximate and, with your permission, precise geolocation when you access or use our Services..."
+      },
+      "Collecting PII of Children":{
+         "application":"My bath and body works",
+         "risk_level":"Green",
+         "justification":"Services are not directed to children, and they do not knowingly collect PII from children under 13.",
+         "snippet":"Our Services are designed for a general audience and are not directed to children. We do not knowingly collect or solicit personal information from children under the age of thirteen (13)..."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"My bath and body works",
+         "risk_level":"Yellow",
+         "justification":"May disclose personal information if required by law or legal process, or in response to government agencies.",
+         "snippet":"We also may disclose personal information about you in the following circumstances: (a) if we are required to do so by law or legal process (such as a court order or subpoena); (b) in response to requests by government agencies, such as law enforcement authorities..."
+      },
+      "Policy Change Notification":{
+         "application":"My bath and body works",
+         "risk_level":"Yellow",
+         "justification":"Policy updates are posted on the page, and significant changes will be indicated.",
+         "snippet":"Changes to the Policy will be posted on this page. For significant changes, we will notify you by posting a prominent notice on our Services..."
+      },
+      "Control of Data":{
+         "application":"My bath and body works",
+         "risk_level":"Yellow",
+         "justification":"Users can update/modify some account information but specific edit/delete options for all data are not explicitly stated.",
+         "snippet":"You may update or modify your billing- and shipping-related information, and other account information, by logging onto our Services..."
+      },
+      "Data Aggregation":{
+         "application":"My bath and body works",
+         "risk_level":"Yellow",
+         "justification":"Aggregated, de-identified, or anonymized information may be created for statistical purposes.",
+         "snippet":"create aggregated, permanently de-identified, or anonymized information for statistical purposes, which we will maintain and use in a non-individually identifiable form and will not attempt to re-identify the data..."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"QR and barcode scanner",
+         "risk_level":"Green",
+         "justification":"Not asked for.",
+         "snippet":"Barcode & QR Scanner with your privacy in mind, so we do not collect personally identifiable information about you."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"QR and barcode scanner",
+         "risk_level":"Green",
+         "justification":"Not asked for.",
+         "snippet":"Barcode & QR Scanner with your privacy in mind, so we do not collect personally identifiable information about you."
+      },
+      "Social Security Number":{
+         "application":"QR and barcode scanner",
+         "risk_level":"Green",
+         "justification":"Not asked for.",
+         "snippet":"Barcode & QR Scanner with your privacy in mind, so we do not collect personally identifiable information about you."
+      },
+      "Ads and Marketing":{
+         "application":"QR and barcode scanner",
+         "risk_level":"Red",
+         "justification":"Personalized ads are shown using Google Adsense which stores user data including IP address.",
+         "snippet":"We use Google Adsense and show personalized ads within our barcode scanner apps...Google Adsense stores user data including IP address and other personal data which can be used to identify the user’s browser..."
+      },
+      "Location":{
+         "application":"QR and barcode scanner",
+         "risk_level":"Green",
+         "justification":"Not tracked.",
+         "snippet":"Barcode & QR Scanner with your privacy in mind, so we do not collect personally identifiable information about you."
+      },
+      "Collecting PII of Children":{
+         "application":"QR and barcode scanner",
+         "risk_level":"Yellow",
+         "justification":"Not mentioned.",
+         "snippet":"Barcode & QR Scanner with your privacy in mind, so we do not collect personally identifiable information about you."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"QR and barcode scanner",
+         "risk_level":"Yellow",
+         "justification":"Not mentioned.",
+         "snippet":"Barcode & QR Scanner with your privacy in mind, so we do not collect personally identifiable information about you."
+      },
+      "Policy Change Notification":{
+         "application":"QR and barcode scanner",
+         "risk_level":"Red",
+         "justification":"Not posted.",
+         "snippet":"Privacy policy"
+      },
+      "Control of Data":{
+         "application":"QR and barcode scanner",
+         "risk_level":"Red",
+         "justification":"No edit/delete options.",
+         "snippet":"Barcode & QR Scanner with your privacy in mind, so we do not collect personally identifiable information about you."
+      },
+      "Data Aggregation":{
+         "application":"QR and barcode scanner",
+         "risk_level":"Yellow",
+         "justification":"IP address is collected by Google Adsense for ad purposes.",
+         "snippet":"Google Adsense stores user data including IP address..."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Walmart Shopping & Grocery",
+         "risk_level":"Yellow",
+         "justification":"Collected for account creation, communication, and marketing.",
+         "snippet":"Basic Personal Identifiers, such as name, telephone number, physical address, email address..."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Walmart Shopping & Grocery",
+         "risk_level":"Yellow",
+         "justification":"Financial Information such as credit or debit card numbers are collected. Physical address is also collected for basic identification and shipping.",
+         "snippet":"Financial Information, such as credit or debit card numbers, and financial account numbers...Basic Personal Identifiers, such as name, telephone number, physical address, email address..."
+      },
+      "Social Security Number":{
+         "application":"Walmart Shopping & Grocery",
+         "risk_level":"Yellow",
+         "justification":"Government-issued identifiers (e.g., national identification numbers) are collected.",
+         "snippet":"Basic Personal Identifiers, such as name, telephone number, physical address, email address, government-issued identifiers (e.g., national identification numbers, driver’s license numbers), and signatures."
+      },
+      "Ads and Marketing":{
+         "application":"Walmart Shopping & Grocery",
+         "risk_level":"Red",
+         "justification":"Personal information is used for targeted advertising and shared with advertising and marketing partners.",
+         "snippet":"Performing and providing advertising and marketing services, including targeted advertising...We work with various advertising, marketing, and other related technology partners so we can both market our products to you and provide advertising services to other companies."
+      },
+      "Location":{
+         "application":"Walmart Shopping & Grocery",
+         "risk_level":"Yellow",
+         "justification":"Imprecise geolocation is collected, and precise geolocation may be collected with consent.",
+         "snippet":"Geolocation, such as data about the location of your device, which may be imprecise (i.e., inferred from your device’s IP address). If you provide your consent, this data may be precise."
+      },
+      "Collecting PII of Children":{
+         "application":"Walmart Shopping & Grocery",
+         "risk_level":"Green",
+         "justification":"Sites are generally not directed to children under 13, and they do not knowingly collect PII from them online.",
+         "snippet":"As a general rule, our Sites are designed for a general audience and are not directed to children under the age of 13. We do not knowingly collect personal information from children under the age of 13 online."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Walmart Shopping & Grocery",
+         "risk_level":"Yellow",
+         "justification":"May disclose personal information when required by law or legal process, or to protect safety, property, or rights.",
+         "snippet":"We may disclose your personal information when required by law or legal process, or when we believe doing so will help to protect the safety, property, or rights of individuals or Walmart."
+      },
+      "Policy Change Notification":{
+         "application":"Walmart Shopping & Grocery",
+         "risk_level":"Yellow",
+         "justification":"Notice of significant updates will be provided, and the update date is posted.",
+         "snippet":"We will provide notice of significant updates, but please check our Privacy Notice periodically for changes. We’ll always post the date our Privacy Notice was last updated at the top of the Notice."
+      },
+      "Control of Data":{
+         "application":"Walmart Shopping & Grocery",
+         "risk_level":"Yellow",
+         "justification":"Users can access and update some personal information by logging into their account or contacting them, and can request account deletion.",
+         "snippet":"You can access or update your personal information as described below...To delete your Walmart account, use the Contact Us section below."
+      },
+      "Data Aggregation":{
+         "application":"Walmart Shopping & Grocery",
+         "risk_level":"Yellow",
+         "justification":"Personal information may be combined and associated from multiple sources, and deidentified information is used for business purposes.",
+         "snippet":"We may combine and associate personal information collected or inferred about you from multiple online and in-store sources...To the extent we process deidentified information, we will maintain and use the information in deidentified form..."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Facebook",
+         "risk_level":"Yellow",
+         "justification":"Collected for communication, account management, and potentially marketing.",
+         "snippet":"We communicate with you using information you've given us, like contact information you've entered on your profile...We’ll contact you via email or in-product notifications in relation to the Meta Products..."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Facebook",
+         "risk_level":"Yellow",
+         "justification":"Collected for purchases or other transactions.",
+         "snippet":"Purchases or other transactions you make, including truncated credit card information..."
+      },
+      "Social Security Number":{
+         "application":"Facebook",
+         "risk_level":"Yellow",
+         "justification":"May be inferred from government-issued identifiers collected for verification.",
+         "snippet":"We use information we collect to help protect people from harm and provide safe, secure Products...Verify accounts and activity..."
+      },
+      "Ads and Marketing":{
+         "application":"Facebook",
+         "risk_level":"Red",
+         "justification":"Personalized ads are a core part of the service, and user data is extensively used for tailoring ads and measuring their effectiveness. Information is shared with advertisers and ad networks.",
+         "snippet":"We use information we collect to provide a personalized experience to you, including ads...We also require Partners and third parties to follow rules about how they can and cannot use and disclose the information we provide...Advertisers and Audience Network publishers...Partners who use our analytics services..."
+      },
+      "Location":{
+         "application":"Facebook",
+         "risk_level":"Yellow",
+         "justification":"Location-related information is collected and used to personalize the experience and for ads.",
+         "snippet":"How we use location-related information...Information you’ve shared through your device settings (like GPS location)...Information about the network you connect your device to, including your IP address..."
+      },
+      "Collecting PII of Children":{
+         "application":"Facebook",
+         "risk_level":"Yellow",
+         "justification":"While the policy doesn't explicitly state they don't collect from children, age restrictions are in place, implying limited collection from this group.",
+         "snippet":"We at Meta want you to understand what information we collect, and how we use and share it. That’s why we encourage you to read our Privacy Policy. This helps you use Meta Products in the way that’s right for you."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Facebook",
+         "risk_level":"Yellow",
+         "justification":"Information is shared in response to legal requests and to comply with applicable law.",
+         "snippet":"We also share information with third parties in response to legal requests, to comply with applicable law or to prevent harm...In response to legal requests, like search warrants, court orders, production orders or subpoenas."
+      },
+      "Policy Change Notification":{
+         "application":"Facebook",
+         "risk_level":"Yellow",
+         "justification":"Users will be notified of material changes to the policy before they take effect.",
+         "snippet":"We'll notify you before we make material changes to this Policy. You’ll have the opportunity to review the revised Policy before you choose to continue using our Products."
+      },
+      "Control of Data":{
+         "application":"Facebook",
+         "risk_level":"Yellow",
+         "justification":"Users are provided with tools to view, manage, download, and delete their information, and can adjust privacy settings.",
+         "snippet":"We offer you a variety of tools to view, manage, download and delete your information below. You can also manage your information by visiting the settings of the Products you use."
+      },
+      "Data Aggregation":{
+         "application":"Facebook",
+         "risk_level":"Yellow",
+         "justification":"Information is aggregated and anonymized for various purposes, including product improvement and business services.",
+         "snippet":"To use less information that’s connected to individual users, in some cases we de-identify or aggregate information. We might also anonymize it so that it no longer identifies you. We use this information in the same ways we use your information as described in this section...Provide aggregated user analytics and insights reports..."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"X (formerly Twitter)",
+         "risk_level":"Yellow",
+         "justification":"Required for account creation and used for communication.",
+         "snippet":"If you create an account, you must provide us with some information so that we can provide our services to you. This includes ... an email address or phone number ..."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"X (formerly Twitter)",
+         "risk_level":"Yellow",
+         "justification":"Collected for paid products and services like purchasing ads.",
+         "snippet":"In order to purchase ads or other offerings provided as part of our paid products and services you will need to provide us payment information, including your credit or debit card number, card expiration date, CVV code, and billing address."
+      },
+      "Social Security Number":{
+         "application":"X (formerly Twitter)",
+         "risk_level":"Yellow",
+         "justification":"May be inferred or used for identity verification, especially for regulatory compliance and safety.",
+         "snippet":"We may also use different signals and your data to infer, preserve, use, share, or disclose your age and identity information in order to comply with regulatory requirements as well as for safety, security, fraud, know-your-customer, know-your-business, and identity verification, as the case may be."
+      },
+      "Ads and Marketing":{
+         "application":"X (formerly Twitter)",
+         "risk_level":"Red",
+         "justification":"Personal information is used to provide and personalize ads, and information about ad interactions is shared with advertisers.",
+         "snippet":"We use your information to provide our advertising and sponsored content services subject to your settings, which helps make ads on X more relevant to you. We also use this information to measure the effectiveness of ads and to help recognize your devices to serve you ads on and off of X ... Advertisers may learn information from your engagement with their ads on or off X."
+      },
+      "Location":{
+         "application":"X (formerly Twitter)",
+         "risk_level":"Yellow",
+         "justification":"Approximate location is collected by default, and precise location can be shared by the user.",
+         "snippet":"When you use X, we collect some information about your approximate location to provide the service you expect, including showing you relevant ads. You can also choose to share your current precise location or places where you’ve previously used X by enabling these settings in your account."
+      },
+      "Collecting PII of Children":{
+         "application":"X (formerly Twitter)",
+         "risk_level":"Green",
+         "justification":"Services are not directed to children under 13, and they do not knowingly collect their personal information.",
+         "snippet":"Our services are not directed to children, and you may not use our services if you are under the age of 13. We do not knowingly collect personal information from children under 13."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"X (formerly Twitter)",
+         "risk_level":"Yellow",
+         "justification":"Information may be preserved, used, shared, or disclosed when legally required or to prevent harm.",
+         "snippet":"We may preserve, use, share, or disclose your information if we believe that it is reasonably necessary to: comply with a law, regulation, legal process, or governmental request; protect the safety of any person, protect the safety or integrity of our platform ..."
+      },
+      "Policy Change Notification":{
+         "application":"X (formerly Twitter)",
+         "risk_level":"Yellow",
+         "justification":"Users will be notified of material changes to the Privacy Policy.",
+         "snippet":"If we do revise this Privacy Policy and make changes that are determined by us to be material, we will provide you notice and an opportunity to review the revised Privacy Policy before you continue to use X."
+      },
+      "Control of Data":{
+         "application":"X (formerly Twitter)",
+         "risk_level":"Yellow",
+         "justification":"Users can access, correct, modify, and delete their information through account settings and other tools.",
+         "snippet":"You can access, correct, or modify the information you provided to us by editing your profile and adjusting your account settings ... If you follow the instructions here, your account will be deactivated and your data will be queued for deletion."
+      },
+      "Data Aggregation":{
+         "application":"X (formerly Twitter)",
+         "risk_level":"Yellow",
+         "justification":"Information is used to measure, analyze, and improve services, which may involve aggregated data.",
+         "snippet":"We use the information we collect to measure and analyze the effectiveness of our products and services and to better understand how you use them in order to make them better."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"ultracleanep.com",
+         "risk_level":"Yellow",
+         "justification":"Collected during registration and via direct contact for communication and marketing.",
+         "snippet":"During registration a user is required to give certain information (such as name, company name, phone number, physical address and email address). This information is used to contact you about the products/services on our site in which you have expressed interest. ... Unless you ask us not to, we may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"ultracleanep.com",
+         "risk_level":"Green",
+         "justification":"The policy does not mention the collection of credit card numbers. The home address is collected during registration.",
+         "snippet":"During registration a user is required to give certain information (such as name, company name, phone number, physical address and email address)."
+      },
+      "Social Security Number":{
+         "application":"ultracleanep.com",
+         "risk_level":"Green",
+         "justification":"The policy does not mention the collection of Social Security Numbers.",
+         "snippet":"We only have access to/collect information that you voluntarily give us via email or other direct contact from you."
+      },
+      "Ads and Marketing":{
+         "application":"ultracleanep.com",
+         "risk_level":"Yellow",
+         "justification":"The policy states they may contact users for marketing purposes.",
+         "snippet":"Unless you ask us not to, we may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy."
+      },
+      "Location":{
+         "application":"ultracleanep.com",
+         "risk_level":"Yellow",
+         "justification":"Physical address is collected during registration.",
+         "snippet":"During registration a user is required to give certain information (such as name, company name, phone number, physical address and email address)."
+      },
+      "Collecting PII of Children":{
+         "application":"ultracleanep.com",
+         "risk_level":"Green",
+         "justification":"The policy does not address the collection of PII from children, implying it's not a focus.",
+         "snippet":"We are the sole owners of the information collected on this site. We only have access to/collect information that you voluntarily give us via email or other direct contact from you."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"ultracleanep.com",
+         "risk_level":"Green",
+         "justification":"The policy does not mention sharing information with law enforcement.",
+         "snippet":"We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. to quote a project."
+      },
+      "Policy Change Notification":{
+         "application":"ultracleanep.com",
+         "risk_level":"Yellow",
+         "justification":"The policy states that updates will be posted on the page, but doesn't specify direct notification.",
+         "snippet":"Our Privacy Policy may change from time to time and all updates will be posted on this page."
+      },
+      "Control of Data":{
+         "application":"ultracleanep.com",
+         "risk_level":"Yellow",
+         "justification":"Users can opt-out of future contact, implying some control over their data.",
+         "snippet":"Unless you ask us not to, we may contact you via email in the future..."
+      },
+      "Data Aggregation":{
+         "application":"ultracleanep.com",
+         "risk_level":"Green",
+         "justification":"The policy does not mention data aggregation.",
+         "snippet":"We are the sole owners of the information collected on this site."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"TextNow",
+         "risk_level":"Yellow",
+         "justification":"Collected for account creation, communication, and marketing.",
+         "snippet":"Contact data, such as your first and last name, user ID, email address, billing and mailing addresses, professional title and company name, and phone number...Marketing data, such as your preferences for receiving our marketing communications and details about your engagement with them."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"TextNow",
+         "risk_level":"Yellow",
+         "justification":"Payment information, including payment card details and billing/mailing addresses, is collected for transactions.",
+         "snippet":"Payment information needed to complete transactions, including payment card information...Contact data, such as your ... billing and mailing addresses..."
+      },
+      "Social Security Number":{
+         "application":"TextNow",
+         "risk_level":"Green",
+         "justification":"The policy does not mention the collection of Social Security Numbers.",
+         "snippet":"Personal information you may provide to us through the Service or otherwise includes: ... Other data not specifically listed here, which we will use as described in this Privacy Policy or as otherwise disclosed at the time of collection."
+      },
+      "Ads and Marketing":{
+         "application":"TextNow",
+         "risk_level":"Red",
+         "justification":"Personal information is used for direct marketing and interest-based advertising, with sharing to advertising partners.",
+         "snippet":"Marketing and advertising. We, our service providers and our third-party advertising partners may collect and use your personal information for marketing and advertising purposes...Interest-based advertising. Our third-party advertising partners may use cookies and similar technologies to collect information about your interaction...We may share certain categories of Identifiers with advertising partners to facilitate online advertising."
+      },
+      "Location":{
+         "application":"TextNow",
+         "risk_level":"Yellow",
+         "justification":"General location is automatically collected, and precise geolocation can be collected with authorization.",
+         "snippet":"Device data, such as ... general location information such as city, state or geographic area...Location data when you authorize the Service to access your device’s location, we may collect precise geolocation data or more general information about your location."
+      },
+      "Collecting PII of Children":{
+         "application":"TextNow",
+         "risk_level":"Yellow",
+         "justification":"The service is not intended for those under 13 (or 16 for California residents), and they will delete collected information if discovered.",
+         "snippet":"The Service is not intended for use by anyone under 16 years of age with respect to California residents and 13 years of age with respect to residents of other U.S. states and Canada. If we learn that we have collected personal information through the Service from a child without the consent of the child’s parent or guardian as required by law, we will comply with applicable legal requirements to delete the information."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"TextNow",
+         "risk_level":"Yellow",
+         "justification":"Personal information may be shared with authorities and others for compliance and protection purposes.",
+         "snippet":"Authorities and others. Law enforcement, government authorities, and private parties, as we believe in good faith to be necessary or appropriate for the compliance and protection purposes described above."
+      },
+      "Policy Change Notification":{
+         "application":"TextNow",
+         "risk_level":"Yellow",
+         "justification":"Users will be notified of material changes to the Privacy Policy via updates on the service or other appropriate means.",
+         "snippet":"If we make material changes to this Privacy Policy, we will notify you by updating the date of this Privacy Policy and posting it on the Service or other appropriate means."
+      },
+      "Control of Data":{
+         "application":"TextNow",
+         "risk_level":"Yellow",
+         "justification":"Users can access, update, and delete their information, and opt-out of marketing and targeted advertising.",
+         "snippet":"Access or update your information. If you have registered for an account with us through the Service, you may review and update certain account information by logging into the account...Opt-out of marketing communications...Cookies & advertising choices...Delete your content or close your account."
+      },
+      "Data Aggregation":{
+         "application":"TextNow",
+         "risk_level":"Yellow",
+         "justification":"The policy mentions creating anonymous, aggregated, or de-identified data for business purposes.",
+         "snippet":"To create anonymous, aggregated or de-identified data. We may create anonymous, aggregated or de-identified data from your personal information and other individuals whose personal information we collect. We may use this anonymous, aggregated or de-identified data and share it with third parties for our lawful business purposes, including to analyze and improve the Service and promote our business."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Tubi",
+         "risk_level":"Yellow",
+         "justification":"Collected for registration, customer service, and marketing communications.",
+         "snippet":"Registration Information may also include, for example, name, e-mail address, gender, zip code, birthday...The information you elect to provide to us during your interactions with the Tubi Services or us, such as when you submit a request to customer support...Tubi may periodically send promotional materials or notifications related to the Tubi Services."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Tubi",
+         "risk_level":"Green",
+         "justification":"The policy does not explicitly mention the collection of credit card numbers or home addresses.",
+         "snippet":"Depending on your interactions with us, Tubi and our service providers may collect the following information from and about you: ... Other parties that support the Tubi Services, for example, by serving advertisements, providing analytics, or other services..."
+      },
+      "Social Security Number":{
+         "application":"Tubi",
+         "risk_level":"Green",
+         "justification":"The policy does not mention the collection of Social Security Numbers.",
+         "snippet":"Depending on your interactions with us, Tubi and our service providers may collect the following information from and about you: ... Tubi does not knowingly collect Personal Information from children under the age of 13..."
+      },
+      "Ads and Marketing":{
+         "application":"Tubi",
+         "risk_level":"Red",
+         "justification":"Personal information is used to deliver relevant advertisements and marketing messages, and information is shared with advertising technology companies.",
+         "snippet":"Tubi and our service providers may use the information we collect from and about you as described in this Privacy Policy to deliver relevant ads to you when you use the Tubi Services or another service...This may include, for example, sharing certain information with advertising technology companies (e.g., identity partners)...Tubi may periodically send promotional materials or notifications related to the Tubi Services."
+      },
+      "Location":{
+         "application":"Tubi",
+         "risk_level":"Yellow",
+         "justification":"Geolocation data may be collected from devices.",
+         "snippet":"In certain circumstances, we also may collect geolocation data from that device."
+      },
+      "Collecting PII of Children":{
+         "application":"Tubi",
+         "risk_level":"Yellow",
+         "justification":"Tubi does not knowingly collect personal information from children under 13, except for persistent identifiers for internal operations, as detailed in their Children's Privacy Policy.",
+         "snippet":"Tubi does not knowingly collect Personal Information from children under the age of 13, except with respect to certain types of Activity Information (described below) which is used only to support the internal operations of the Tubi Services. For more information, please see our Children’s Privacy Policy in Section 6 below."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Tubi",
+         "risk_level":"Yellow",
+         "justification":"Information may be disclosed to protect the rights of Tubi and others, including to comply with legal process and respond to authorities.",
+         "snippet":"There may be instances when Tubi may use or disclose your information, including situations where Tubi has a good faith belief that such use or disclosure is necessary in order to: ... (iv) comply with the law or legal process; or (v) respond to requests from public and government authorities."
+      },
+      "Policy Change Notification":{
+         "application":"Tubi",
+         "risk_level":"Yellow",
+         "justification":"Changes to the Privacy Policy will be effective when posted on the Tubi Services.",
+         "snippet":"Any changes to this Privacy Policy will become effective when we post the revised Privacy Policy on the Tubi Services."
+      },
+      "Control of Data":{
+         "application":"Tubi",
+         "risk_level":"Yellow",
+         "justification":"Users can access and request deletion of their personal information and adjust settings for promotional materials.",
+         "snippet":"If you would like to access personal information we hold about you or delete your personal information that you have previously provided directly to us, please visit www.tubitv.com/privacy/mydata or www.tubitv.com/privacy/delete and submit a request...If you want to stop receiving promotional materials, you can change your account setting in the “settings” function of the Tubi Services or follow the unsubscribe instructions at the bottom of each e-mail."
+      },
+      "Data Aggregation":{
+         "application":"Tubi",
+         "risk_level":"Yellow",
+         "justification":"The policy mentions using information to improve services and deliver relevant content, which may involve aggregated data.",
+         "snippet":"We use the information we collect from and about you to provide the Tubi Services and features to you. This may include: * to measure, maintain and improve those Tubi Services and features and to develop new products and services, including conducting research and quality and safety assurance measures; * to improve your experience with both online and off-line Tubi Services by delivering content you will find more relevant and interesting, including advertising and marketing messages..."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Peacock",
+         "risk_level":"Yellow",
+         "justification":"Collected for account registration and communication related to the service.",
+         "snippet":"You may be asked to provide registration information in order to access the Peacock Service...you authorize us to charge the applicable subscription fee (plus applicable taxes and fees) to that payment method...If you want to stop receiving promotional materials, you can change your account setting..."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Peacock",
+         "risk_level":"Yellow",
+         "justification":"Payment information, including credit card details, is collected for subscriptions. While home address isn't explicitly mentioned for all users, it might be collected for billing or promotional purposes depending on the interaction.",
+         "snippet":"Our payment processors will keep your detailed payment information, such as credit card number and expiration date, on file...you authorize us to charge the applicable subscription fee (plus applicable taxes and fees) to that payment method...Supplemental terms and conditions may apply to your use of certain aspects or features of the Peacock Service (“Supplemental Terms”)."
+      },
+      "Social Security Number":{
+         "application":"Peacock",
+         "risk_level":"Green",
+         "justification":"The policy does not mention the collection of Social Security Numbers.",
+         "snippet":"These Terms of Service set out the agreement between you and Peacock regarding how you can use the Peacock Service and what responsibilities you and Peacock have to each other...We may change, suspend, or discontinue the Peacock Service, in whole or in part, at any time for any reason without notice or liability to you."
+      },
+      "Ads and Marketing":{
+         "application":"Peacock",
+         "risk_level":"Red",
+         "justification":"Personal data is analyzed for personalized recommendations and targeted advertising in certain service tiers.",
+         "snippet":"The personalized recommendations offered as part of the Peacock Service and targeted advertising included in certain Service Tiers enable us to provide you with Content (including recommending relevant Content)...The Peacock Service also analyzes your data to improve the services offered...Tubi may periodically send promotional materials or notifications related to the Tubi Services."
+      },
+      "Location":{
+         "application":"Peacock",
+         "risk_level":"Yellow",
+         "justification":"Location information may be used to determine content availability and restrictions.",
+         "snippet":"For example, certain sporting events on a regional sports network and Content on your local NBC station may be unavailable due to your location, blackouts, or other restrictions set by sports leagues and other parties that control Content rights, and we may use different technologies and methods to verify your location at the time you attempt to access Content."
+      },
+      "Collecting PII of Children":{
+         "application":"Peacock",
+         "risk_level":"Green",
+         "justification":"The service is for individuals 18 years of age or older.",
+         "snippet":"The Peacock Service is for individuals who are 18 years of age or older and reside in the United States (including its territories and possessions). Companies, commercial establishments and other organizations are not eligible to register for a Peacock account or use the Peacock Service."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Peacock",
+         "risk_level":"Yellow",
+         "justification":"The terms allow for cooperation with legal processes and authorities.",
+         "snippet":"We may change, suspend, or discontinue the Peacock Service, in whole or in part, at any time for any reason without notice or liability to you...Pursuant to 17 U.S.C. Section 512 as amended by Title II of the Digital Millennium Copyright Act of 1998, we reserve the right, but not the obligation, to (i) remove your User-Generated Content, and (ii) terminate your license to use the Peacock Service if we determine in our sole discretion that you are involved in infringing activity..."
+      },
+      "Policy Change Notification":{
+         "application":"Peacock",
+         "risk_level":"Yellow",
+         "justification":"Users will be notified of modifications to the Terms of Service through notification or posting on Peacock's website.",
+         "snippet":"We may modify these Terms of Service, and such changes will be effective (i) for existing users, thirty (30) days following either notification to you or our posting of the changes on Peacock’s website, or (ii) for new users who register for the Peacock Service during such 30-day period, at the time of registration."
+      },
+      "Control of Data":{
+         "application":"Peacock",
+         "risk_level":"Yellow",
+         "justification":"Users can cancel their subscription at any time.",
+         "snippet":"YOU MAY CANCEL YOUR SUBSCRIPTION TO THE PEACOCK SERVICE AT ANY TIME BEFORE THE END OF THE THEN-CURRENT BILLING PERIOD, TRIAL PERIOD, OR PROMOTIONAL PERIOD (AS APPLICABLE)...TO CANCEL YOUR SUBSCRIPTION, LOG INTO YOUR PEACOCK SERVICE ACCOUNT AND FOLLOW THE INSTRUCTIONS ON YOUR ACCOUNT DETAILS PAGE."
+      },
+      "Data Aggregation":{
+         "application":"Peacock",
+         "risk_level":"Yellow",
+         "justification":"The service analyzes user data to improve services, which could involve aggregation.",
+         "snippet":"The Peacock Service also analyzes your data to improve the services offered, and such continuous improvement is an integral part of the Peacock Service...By using the Peacock Service, you are requesting and directing us to provide you with a personalized (and, if applicable, ad-supported) Peacock Service that processes data as described in our Privacy Policy, subject to any choices and rights described therein."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Microsoft",
+         "risk_level":"Yellow",
+         "justification":"Collected as part of name and contact data for Microsoft accounts and business interactions.",
+         "snippet":"Personal data associated with your Microsoft account includes credentials, name and contact data, payment data...When a customer engages with a Microsoft sales representative, we collect the customer’s name and contact data, along with information about the customer’s organization, to support that engagement."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Microsoft",
+         "risk_level":"Yellow",
+         "justification":"Payment data is collected for Microsoft accounts and when customers pay for products.",
+         "snippet":"Personal data associated with your Microsoft account includes credentials, name and contact data, payment data...When a customer pays for products, we collect contact and payment data to process the payment."
+      },
+      "Social Security Number":{
+         "application":"Microsoft",
+         "risk_level":"Green",
+         "justification":"The policy does not mention the collection of Social Security Numbers.",
+         "snippet":"Your privacy is important to us. This privacy statement explains the personal data Microsoft processes, how Microsoft processes it, and for what purposes."
+      },
+      "Ads and Marketing":{
+         "application":"Microsoft",
+         "risk_level":"Red",
+         "justification":"Personal data is used for advertising and marketing, including targeted advertising, and data may be shared for personalized advertising purposes.",
+         "snippet":"Advertise and market to you, which includes sending promotional communications, targeting advertising, and presenting you with relevant offers...Please note that, as defined under certain U.S. state data privacy laws, “sharing” also relates to providing personal data to third parties for personalized advertising purposes."
+      },
+      "Location":{
+         "application":"Microsoft",
+         "risk_level":"Yellow",
+         "justification":"Location data may be collected depending on the products and features used.",
+         "snippet":"The data we collect depends on the context of your interactions with Microsoft and the choices you make, including your privacy settings and the products and features you use...In order to provide this computing experience, we collect data about you, your device, and the way you use Windows...Windows settings uses your ... location to change brightness at night time to help you customize your Windows."
+      },
+      "Collecting PII of Children":{
+         "application":"Microsoft",
+         "risk_level":"Yellow",
+         "justification":"For users under 13, consent or authorization from a parent or guardian is required for certain products and services.",
+         "snippet":"For users under the age of 13 or as specified by law in their jurisdiction, certain Microsoft products and services will either block users under that age or will ask them to obtain consent or authorization from a parent or guardian before they can use it, including when creating an account to access Microsoft services."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Microsoft",
+         "risk_level":"Yellow",
+         "justification":"Data may be shared when required by law or to respond to legal process, and to protect rights and safety.",
+         "snippet":"We also share data ... when required by law or to respond to legal process; to protect our customers; to protect lives; to maintain the security of our products; and to protect the rights and property of Microsoft and its customers."
+      },
+      "Policy Change Notification":{
+         "application":"Microsoft",
+         "risk_level":"Green",
+         "justification":"The policy indicates it may be updated, but doesn't specify a notification method in this general statement.",
+         "snippet":"Your privacy is important to us. This privacy statement explains the personal data Microsoft processes, how Microsoft processes it, and for what purposes...Please read the product-specific details in this privacy statement, which provide additional relevant information."
+      },
+      "Control of Data":{
+         "application":"Microsoft",
+         "risk_level":"Yellow",
+         "justification":"Users have choices regarding data collection and use, can control personalized advertising, and access/clear some data through the privacy dashboard.",
+         "snippet":"You can also make choices about the collection and use of your data by Microsoft. You can control your personal data that Microsoft has obtained, and exercise your data protection rights, by contacting Microsoft or using various tools we provide...Control the use of your data for personalized advertising from Microsoft, including Xandr, by visiting our opt-out page...Access and clear some of your data through the Microsoft privacy dashboard."
+      },
+      "Data Aggregation":{
+         "application":"Microsoft",
+         "risk_level":"Yellow",
+         "justification":"Data collected from different contexts may be combined for a more seamless and personalized experience.",
+         "snippet":"In carrying out these purposes, we combine data we collect from different contexts (for example, from your use of two Microsoft products) or obtain from third parties to give you a more seamless, consistent, and personalized experience, to make informed business decisions, and for other legitimate purposes."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Spotify",
+         "risk_level":"Yellow",
+         "justification":"Collected as User Data when signing up for the service and for communication.",
+         "snippet":"Personal data that we need to create your Spotify account and that enables you to use the Spotify Service. This may include your: email address..."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Spotify",
+         "risk_level":"Yellow",
+         "justification":"Street address may be collected for eligibility checks, legal notices, support, billing, and delivery. Payment data, including card details (though not full number), is collected for purchases and paid subscriptions.",
+         "snippet":"We may ask for and process your street address for the following reasons: to check eligibility for a Service Option, to deliver notices which are required by law, to deliver support options, for billing and tax administration...If you make any purchases from Spotify or sign up for a paid Service Option or a trial, we will need to process your payment data. It will include information such as: ZIP/postal code..."
+      },
+      "Social Security Number":{
+         "application":"Spotify",
+         "risk_level":"Green",
+         "justification":"The policy does not mention the collection of Social Security Numbers.",
+         "snippet":"This Privacy Policy describes how we at Spotify USA Inc. process personal data of U.S. residents."
+      },
+      "Ads and Marketing":{
+         "application":"Spotify",
+         "risk_level":"Red",
+         "justification":"Personal data, including usage data and inferences about interests, is used for tailored advertising. Users can opt out, but data processing for this purpose occurs.",
+         "snippet":"For marketing or advertising purposes. For example: when we use your personal data to tailor advertising to your interests, or when we send you email marketing...Request to opt out of the processing of your personal data for tailored advertising. For more information about our processing for these purposes, see the section ‘Tailored advertising controls’ below."
+      },
+      "Location":{
+         "application":"Spotify",
+         "risk_level":"Yellow",
+         "justification":"General (non-precise) location is collected from technical data or payment currency to meet geographic requirements and deliver relevant content and advertising.",
+         "snippet":"Your general location includes country, region or state. We may learn this from technical data (e.g. your IP address, language setting of your device) or payment currency. We need this to: meet geographic requirements in our agreements with the owners of content on the Spotify Service, deliver content and advertising that’s relevant to you."
+      },
+      "Collecting PII of Children":{
+         "application":"Spotify",
+         "risk_level":"Yellow",
+         "justification":"Younger users may have tailored advertising turned off by default, and age verification may be required, suggesting awareness of child users, though specific PII collection practices for children aren't detailed.",
+         "snippet":"Younger users may have tailored advertising turned off by default. When you reach the appropriate age, you will start to receive tailored advertising...For example, when we use your date of birth when required for age verification purposes."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Spotify",
+         "risk_level":"Yellow",
+         "justification":"Personal data may be disclosed to law enforcement and other authorities when believed necessary to comply with legal obligations, respond to legal processes, or for justifiable interests like national security and criminal investigation.",
+         "snippet":"To comply with a request from law enforcement, courts, or other competent authorities...When we believe in good faith it’s necessary for us to do so, for example: to comply with a legal obligation, to respond to a valid legal process (such as a search warrant, court order, or subpoena), for our own or a third party’s justifiable interest, relating to: national security, law enforcement, litigation (a court case), criminal investigation, protecting someone’s safety, preventing death or imminent bodily harm."
+      },
+      "Policy Change Notification":{
+         "application":"Spotify",
+         "risk_level":"Green",
+         "justification":"The policy mentions that new or additional services will be subject to the policy unless stated otherwise, implying updates will be communicated within the service or upon introduction of new features.",
+         "snippet":"From time to time, we may develop new or offer additional services. They’ll also be subject to this Policy, unless stated otherwise when we introduce them."
+      },
+      "Control of Data":{
+         "application":"Spotify",
+         "risk_level":"Yellow",
+         "justification":"Users have rights to be informed, know/access, correct, and request deletion of their data. They can also opt out of tailored advertising and withdraw consent through account settings and by contacting Spotify.",
+         "snippet":"Certain U.S. states have adopted privacy laws that give certain rights to individuals over their personal data. We provide these rights to all residents of the U.S., regardless of where they live...You can exercise your right to opt out on your Account Privacy page under ‘Tailored Ads’...To withdraw your consent, you can: adjust the relevant control on Spotify, contact us."
+      },
+      "Data Aggregation":{
+         "application":"Spotify",
+         "risk_level":"Yellow",
+         "justification":"Aggregated user data is used for business planning, reporting, and forecasting.",
+         "snippet":"To conduct business planning, reporting, and forecasting. For example, when we look at aggregated user data like the number of new sign ups in a country in order to plan new locations to launch our products and features in."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Wonder AI",
+         "risk_level":"Yellow",
+         "justification":"Email address is used for after-sales support and customer relationship management.",
+         "snippet":"Sharing identity and contact information to manage after-sales support services, conduct business activities and manage customer relationship management processes."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Wonder AI",
+         "risk_level":"Green",
+         "justification":"The provided text does not explicitly mention the collection or use of credit card numbers or home addresses.",
+         "snippet":"This Privacy Policy describes how we at Spotify USA Inc. process personal data of U.S. residents."
+      },
+      "Social Security Number":{
+         "application":"Wonder AI",
+         "risk_level":"Green",
+         "justification":"The provided text does not mention the collection or use of Social Security Numbers.",
+         "snippet":"This Privacy Policy describes how we at Spotify USA Inc. process personal data of U.S. residents."
+      },
+      "Ads and Marketing":{
+         "application":"Wonder AI",
+         "risk_level":"Yellow",
+         "justification":"Personal data may be transferred to third parties like Facebook SDK, Adjust, and Firebase Analytics, which are often used for advertising and analytics purposes.",
+         "snippet":"Wonder AI may also transfer your personal data to services providers of our Company, third parties such as Facebook SDK, Adjust and Firebase Analytics which are embedded into our service..."
+      },
+      "Location":{
+         "application":"Wonder AI",
+         "risk_level":"Green",
+         "justification":"The provided text does not explicitly mention the collection or use of location data.",
+         "snippet":"This Privacy Policy describes how we at Spotify USA Inc. process personal data of U.S. residents."
+      },
+      "Collecting PII of Children":{
+         "application":"Wonder AI",
+         "risk_level":"Green",
+         "justification":"The provided text does not contain specific information about the collection of PII from children.",
+         "snippet":"This Privacy Policy describes how we at Spotify USA Inc. process personal data of U.S. residents."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Wonder AI",
+         "risk_level":"Yellow",
+         "justification":"Identity, communication, and transaction security information may be shared with authorized public institutions and organizations for legal compliance and related purposes.",
+         "snippet":"Sharing identity, communication and transaction security information with authorized public institutions and organizations for the purpose of execution of activities in compliance with legislation, monitor and execution of legal affairs, informing authorized persons, institutions and organizations."
+      },
+      "Policy Change Notification":{
+         "application":"Wonder AI",
+         "risk_level":"Yellow",
+         "justification":"The policy can be revised, and continued use after notification implies acceptance of changes.",
+         "snippet":"This Privacy Policy may be revised by our Company when deemed necessary. If you continue to access Wonder and use or access Wonder without benefiting from the Services offered by Wonder AI after the notification period, you shall be deemed to have allowed the changes in this Privacy Policy."
+      },
+      "Control of Data":{
+         "application":"Wonder AI",
+         "risk_level":"Yellow",
+         "justification":"Users have rights under PDP Law and GDPR to access, correct, delete, restrict processing, object to processing, and request data portability. They can submit requests via email.",
+         "snippet":"Pursuant to Article 11 of the PDP Law, you may request the following regarding your personal data by applying to Wonder AI...Where General Data Protection Regulation (GDPR) is applicable, data subjects have the following rights...Our Company will enable you to file such requests through the “Data Subject Application Form” at support@codeway.co."
+      },
+      "Data Aggregation":{
+         "application":"Wonder AI",
+         "risk_level":"Green",
+         "justification":"The provided text does not explicitly mention the aggregation of personal data for specific purposes.",
+         "snippet":"This Privacy Policy describes how we at Spotify USA Inc. process personal data of U.S. residents."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"PayPal",
+         "risk_level":"Yellow",
+         "justification":"Collected as a Personal Identifier and used for various purposes including providing services, communication, and account management.",
+         "snippet":"Personal Identifiers: Such as Name, Business Name, Address, Phone Number, Email, IP address, Device Information...We may collect Personal Information to: Provide our Services: such as to help you send, receive or request money...Communicate with you: We may contact you when you need us, such as answering a question you sent to our customer service team."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"PayPal",
+         "risk_level":"Red",
+         "justification":"Credit and debit card information and address are collected as Records and Financial Information and Personal Identifiers, respectively, for payment processing and account management. Home address may also be used for sending locally relevant options.",
+         "snippet":"Records and Financial Information: Such as, bank account and routing numbers, credit and debit card information...Personal Identifiers: Such as Name, Business Name, Address...Send you locally relevant options: Even if you don’t allow us to track your location, we may still use your address to send you location-based options recommended by businesses that are near to your address."
+      },
+      "Social Security Number":{
+         "application":"PayPal",
+         "risk_level":"Red",
+         "justification":"Social Security number is listed as Sensitive Personal Information that PayPal collects.",
+         "snippet":"Sensitive Personal Information: Social Security number, government-issued identification, bank account and routing numbers, credit and debit card information, voice identification and Photo IDs or Precise Geolocation."
+      },
+      "Ads and Marketing":{
+         "application":"PayPal",
+         "risk_level":"Yellow",
+         "justification":"Personal Information is used to market PayPal's services and those of partners and merchants. While PayPal states they do not share for cross-context behavioral advertising, they do disclose customer insights and product recommendations to partners and merchants for personalized experiences, with an opt-out.",
+         "snippet":"Market our Services: We may use Personal Information to market our Services including where we partner with others to offer similar services to market about our Partners and Merchants...For our PayPal customers, we may disclose your Personal Information to Partners and Merchants that you and we interact with, to help ourselves and Partners and Merchants personalize services and offers so you can have a better and more relevant experience...Unless we are required by law to obtain your consent, we disclose Personal Information collected you after November 27, 2024 (or from earlier if you consent) for personalized shopping experiences...To opt-out of disclosures or Personal Information to Partners and Merchants for personalized shopping experiences, log into your PayPal account and edit your preferences in the Data and Privacy setting."
+      },
+      "Location":{
+         "application":"PayPal",
+         "risk_level":"Yellow",
+         "justification":"PayPal may collect IP-based geolocation data and GPS with consent to customize services, provide location-based options, functionality, offers, ads, and search results. They may also use your address for location-based recommendations.",
+         "snippet":"Geolocation: We may collect IP-based geolocation data and Global Positioning System (GPS) with your consent during your user experience or based on your mobile application settings...Send you locally relevant options: If you agree to let us track your precise location, we can customize our Services by using the right language and personalizing content such as providing location-based options, functionality or offers, ads and search results. Even if you don’t allow us to track your location, we may still use your address to send you location-based options recommended by businesses that are near to your address."
+      },
+      "Collecting PII of Children":{
+         "application":"PayPal",
+         "risk_level":"Green",
+         "justification":"The privacy statement does not contain specific details about the collection of PII from children.",
+         "snippet":"PayPal, Inc. (“we,” “our,” “us,” “PayPal”) provides this Privacy Statement to describe our use of your Personal Information when you use your PayPal account, Xoom account, visit our websites, or apply for, or use our Services, like Braintree and Zettle."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"PayPal",
+         "risk_level":"Yellow",
+         "justification":"PayPal may disclose Personal Information to authorities if compelled by legal process, to comply with law, or when necessary to prevent harm, loss, or report illegal activity.",
+         "snippet":"Authorities, if compelled to do so by a subpoena, court order, or similar legal procedure; when it is necessary to do so to comply with law; or where the disclosure of Personal Information is reasonably necessary to prevent physical harm or financial loss, to report suspected illegal activity, or to investigate violations of the relevant agreement, or as otherwise required by law that requires PayPal or Excluded Services to respond. Such authorities include courts, governments, law enforcement, and regulators."
+      },
+      "Policy Change Notification":{
+         "application":"PayPal",
+         "risk_level":"Yellow",
+         "justification":"Users are provided with 30 days prior notice for revisions requiring it by posting on the website's policy updates or privacy statement page. Other revisions are effective as of the published date. New users are subject to upcoming changes at the time of receiving the statement.",
+         "snippet":"We revise this Privacy Statement from time to time to reflect changes to our business, Services, or applicable laws. If the revised version requires notice in accordance with applicable law, we will provide you with 30 days prior notice by posting notice of the change on the Policy Updates or Privacy Statement page of our website, otherwise the revised Privacy Statement will be effective as of the published effective date. If you are a new User or are receiving this Privacy Statement for the first time and there is an upcoming change described on the Policy Updates or Privacy Statement page at the time you receive this Privacy Statement, such upcoming change will apply to you on the indicated effective date."
+      },
+      "Control of Data":{
+         "application":"PayPal",
+         "risk_level":"Yellow",
+         "justification":"Users have rights to access, correct, delete, and restrict the use or sharing of their Personal Information. They can exercise these rights through their account settings or by contacting PayPal. California residents have specific rights regarding opting out of selling and sharing.",
+         "snippet":"Under applicable data protection law, depending upon the jurisdiction in which you reside...you may have certain rights about how your Personal Information is collected, stored, used and shared...If you, or an authorized agent where permitted, want to exercise any of your rights relating to your Personal Information, contact us or submit your request from your account settings...California also offers a right to opt out of “Selling” and “Sharing” Personal Information."
+      },
+      "Data Aggregation":{
+         "application":"PayPal",
+         "risk_level":"Yellow",
+         "justification":"PayPal may use collected Personal Information for customer analysis and internal operations, which could involve aggregation.",
+         "snippet":"Manage and improve our Services: for example, to develop new products and features, for customer analysis, to administer our Services, and for internal operations, for example troubleshooting, data analysis, testing, research, and statistical purposes."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Roblox",
+         "risk_level":"Yellow",
+         "justification":"Collected for account recovery, identity verification, enabling features, security, and communication (especially with parents for users under 13).",
+         "snippet":"Why we ask you for an email address: Once you have an account, you can add your email address (or your parents’ or guardians’ email address if you are under 13) in case you need to reset your password. We might ask for your email to verify your identity or enable additional features. The main reason we need an email address is for security because it is how we check to make sure accounts are authentic...We collect your email address (or your parents’ or guardians’ email address if you are under 13), username, and any other details you give when you: contact customer support..."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Roblox",
+         "risk_level":"Yellow",
+         "justification":"Billing information, including name, billing address, contact details (like email or phone number), and credit card or other payment information, is collected for purchases of virtual currency or premium subscriptions. Payment processors manage the transactions.",
+         "snippet":"When you pay, you (or your parent or guardian if you’re under 13) will have to give billing information, including Personal Information such as: Name of the person responsible for buying virtual currency, Their billing address and contact details, like email or phone number, credit card or other payment information...Our payment processors (for example, PayPal) manage the transactions, which are subject to their terms and conditions and privacy policies."
+      },
+      "Social Security Number":{
+         "application":"Roblox",
+         "risk_level":"Green",
+         "justification":"The policy does not mention the collection of Social Security Numbers from general users. It is mentioned in the context of the Developer Exchange Program for tax purposes (W-9 form for US taxpayers).",
+         "snippet":"To take part in the Roblox Developer Exchange Program, you must give us an IRS W-9 form (for U.S. taxpayers)..."
+      },
+      "Ads and Marketing":{
+         "application":"Roblox",
+         "risk_level":"Yellow",
+         "justification":"Personal Information like IP addresses, browser/OS information, and usernames/user IDs are used to market Roblox's services. Third-party advertising companies are partnered with. Users under 13 are shown contextual ads only, and behavioral/retargeted ads are not displayed to them. No PII is collected from users under 13 for targeted advertising.",
+         "snippet":"To market Roblox’s Service to new and existing users, we use Personal Information like: IP addresses, information on users’ browsers or operating systems, including language settings and general location information, usernames or user IDs...We do not collect or use Personal Information about users under the age of 13 for advertising or marketing purposes."
+      },
+      "Location":{
+         "application":"Roblox",
+         "risk_level":"Yellow",
+         "justification":"For users 13 and older who opt-in, location-based services may collect and track geolocation information (at the country or region level, not precise) to personalize content or advertising. This is done using a device/browser identifier.",
+         "snippet":"Location-based Services (users 13 and older): You can choose to use location-based Services if you’re 13 or older. If you agree, we may collect and track geolocation information so that we can offer Services that depend on us knowing where you are. We collect location at the country or region level; we do not collect precise geolocation data. Examples are personalizing content or advertising."
+      },
+      "Collecting PII of Children":{
+         "application":"Roblox",
+         "risk_level":"Yellow",
+         "justification":"For users under 13, Roblox collects username, password, date of birth, and optional gender (non-personal information under COPPA). Parent's email (personal information under COPPA) is collected for security and communication. Roblox states they only ask for necessary information and delete/protect accounts if more PII is provided.",
+         "snippet":"Information we collect if you’re under 13 years old: If you’re under 13 years old and create an account, we ask for some information (which is non-personal information, as defined by COPPA) to let you use Roblox...We’ll collect: your username (required)...your password (required)...your date of birth (required)...your gender (optional)...For additional account security and parental controls, you have the option to provide a parent’s or guardian’s email address..."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Roblox",
+         "risk_level":"Yellow",
+         "justification":"While not explicitly detailed with specific terms like 'law enforcement,' the policy mentions sharing information with third-party agents/service providers for services like account integrity and security, which could involve cooperation with authorities when legally required.",
+         "snippet":"We may share your information, including Personal Information, with other companies (known as third-party agents, contractors, or service providers)...Here are examples of the services that we might rely on other companies to provide, and examples of the companies that we are likely to share information with. Account integrity and security..."
+      },
+      "Policy Change Notification":{
+         "application":"Roblox",
+         "risk_level":"Green",
+         "justification":"The policy is dated with an effective date, implying updates will result in a new effective date and likely notification through the website or within the services. The full Privacy Policy link suggests a comprehensive document that would detail update procedures.",
+         "snippet":"Effective Date: March 14, 2025...You can also find the full Privacy Policy here."
+      },
+      "Control of Data":{
+         "application":"Roblox",
+         "risk_level":"Yellow",
+         "justification":"The policy outlines rights regarding Personal Information and provides contact methods for questions or requests, including a Customer Support Form (with specific instructions for users under 13). It also mentions location-specific rights in Section 8 and a US State Privacy Policy Addendum.",
+         "snippet":"This policy describes the rights you have regarding your Personal Information...To reach us with questions or requests regarding your Personal Information, our information about how to contact us is included below...Depending on where you live, you may have different rights or choices for managing your Personal Information, which this Policy will describe later on...If you’re in the United States, additional rules may apply depending on the state you live in. To learn more about the rights available to you under US state laws please visit the the US State Privacy Policy Addendum."
+      },
+      "Data Aggregation":{
+         "application":"Roblox",
+         "risk_level":"Yellow",
+         "justification":"The policy mentions using collected information to operate, maintain, personalize, and improve the service, as well as for research and technical support, which could involve aggregating data for these purposes.",
+         "snippet":"To operate, maintain, personalize, and improve our Service...To research relevant technologies...To provide technical support or customer service..."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"DoorDash",
+         "risk_level":"Yellow",
+         "justification":"Collected for account management, communication, and may be used for marketing (with opt-out).",
+         "snippet":"To update any other information maintained by DoorDash, please contact us at privacy@doordash.com...Promotional emails include an opt-out option at the bottom of the email, select Unsubscribe."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"DoorDash",
+         "risk_level":"Green",
+         "justification":"While the policy mentions updating account information, it doesn't explicitly detail the collection or use of credit card numbers or home addresses in this section. This information would likely be collected during order placement, which is not the focus here.",
+         "snippet":"We provide you the ability to update and correct your personal information. To correct and update your account information, please follow the instructions below..."
+      },
+      "Social Security Number":{
+         "application":"DoorDash",
+         "risk_level":"Green",
+         "justification":"The provided text does not mention the collection or use of Social Security Numbers.",
+         "snippet":"Visit our Consumer Privacy Policy to learn about our general practices regarding the collection, protection, use, and disclosure of personal information."
+      },
+      "Ads and Marketing":{
+         "application":"DoorDash",
+         "risk_level":"Yellow",
+         "justification":"Users have the right to opt-out of the sale or sharing of personal information for targeted advertising or ad personalization. They can manage marketing choices within the app and unsubscribe from promotional emails.",
+         "snippet":"Under the right to opt-out of sale or sharing of personal information, you have the right to opt-out of having your personal information sold or shared...or used for purposes of targeted advertising...To opt-out of the sale or sharing of personal information and targeted advertising, please use the “Do Not Sell or Share My Personal Information” link the DoorDash or Caviar homepage...Promotional emails include an opt-out option at the bottom of the email, select Unsubscribe."
+      },
+      "Location":{
+         "application":"DoorDash",
+         "risk_level":"Yellow",
+         "justification":"Users can control location access through their mobile app settings and have the choice to turn off precise location sharing.",
+         "snippet":"You will be taken to the app settings screen. Here, click the ‘Location’ button. Select the option to allow location access as desired. You will also have the choice to turn off precise location sharing."
+      },
+      "Collecting PII of Children":{
+         "application":"DoorDash",
+         "risk_level":"Green",
+         "justification":"The provided text focuses on general consumer privacy and account management and does not contain specific information about the collection of PII from children.",
+         "snippet":"Our mission is to grow and empower local economies. We connect people with the best of their neighborhoods..."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"DoorDash",
+         "risk_level":"Green",
+         "justification":"The provided text does not explicitly detail sharing personal information with law enforcement. This information would likely be in the full Consumer Privacy Policy.",
+         "snippet":"Visit our Consumer Privacy Policy to learn about our general practices regarding the collection, protection, use, and disclosure of personal information."
+      },
+      "Policy Change Notification":{
+         "application":"DoorDash",
+         "risk_level":"Green",
+         "justification":"The provided text directs users to the Consumer Privacy Policy for general practices, which would likely include information on policy updates.",
+         "snippet":"Visit our Consumer Privacy Policy to learn about our general practices regarding the collection, protection, use, and disclosure of personal information."
+      },
+      "Control of Data":{
+         "application":"DoorDash",
+         "risk_level":"Yellow",
+         "justification":"Users have the ability to update, correct, access, and delete their personal information through their account settings in the mobile app and website. They can also opt-out of the sale/sharing of data for targeted advertising and manage communication preferences.",
+         "snippet":"We provide you the ability to update and correct your personal information...How do I access my data?...How do I Opt-Out of Sale or Sharing of Personal Information (Targeted Advertising or Ad Personalization)?...How do I manage my communication preferences?...How do I delete my account?"
+      },
+      "Data Aggregation":{
+         "application":"DoorDash",
+         "risk_level":"Green",
+         "justification":"The provided text does not explicitly mention the aggregation of personal data for specific purposes.",
+         "snippet":"Our mission is to grow and empower local economies. We connect people with the best of their neighborhoods..."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"thestumbleguyz",
+         "risk_level":"Yellow",
+         "justification":"Collected when users contact them directly and potentially when registering for an account. Used for communication, customer service, updates, marketing, and promotional purposes.",
+         "snippet":"If you contact us directly, we may receive additional information about you such as your name, email address...When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number...Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes...Send you emails."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"thestumbleguyz",
+         "risk_level":"Green",
+         "justification":"The policy mentions collecting an address during account registration but does not explicitly state the collection or use of credit card numbers.",
+         "snippet":"When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number."
+      },
+      "Social Security Number":{
+         "application":"thestumbleguyz",
+         "risk_level":"Green",
+         "justification":"The policy does not mention the collection or use of Social Security Numbers.",
+         "snippet":"The personal information that you are asked to provide, and the reasons why you are asked to provide it, these will be made clear to you at the point we ask you to provide your personal information."
+      },
+      "Ads and Marketing":{
+         "application":"thestumbleguyz",
+         "risk_level":"Yellow",
+         "justification":"The policy mentions using collected information for marketing and promotional purposes and acknowledges the use of cookies (including Google DoubleClick DART cookies) by third-party advertisers. Users have options to decline DART cookies and disable cookies in their browser.",
+         "snippet":"Communicate with you...for marketing and promotional purposes...Google is one of a third-party vendor on our site. It also uses cookies, known as DART cookies, to serve ads to our site visitors...However, visitors may choose to decline the use of DART cookies...Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons...You can choose to disable cookies through your individual browser options."
+      },
+      "Location":{
+         "application":"thestumbleguyz",
+         "risk_level":"Yellow",
+         "justification":"IP addresses are collected through log files, which can provide a general geographic location. Third-party advertisers also automatically receive IP addresses.",
+         "snippet":"The information collected by log files include internet protocol (IP) addresses...Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons...They automatically receive your IP address when this occurs."
+      },
+      "Collecting PII of Children":{
+         "application":"thestumbleguyz",
+         "risk_level":"Yellow",
+         "justification":"The policy states they do not knowingly collect PII from children under 13 and encourages parents to monitor their children's online activity. They also outline procedures for removing such information if it is believed to have been provided.",
+         "snippet":"Thestumbleguyz does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"thestumbleguyz",
+         "risk_level":"Green",
+         "justification":"The policy does not explicitly mention sharing personal information with law enforcement. This would likely be addressed if legally required.",
+         "snippet":"This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in thestumbleguyz."
+      },
+      "Policy Change Notification":{
+         "application":"thestumbleguyz",
+         "risk_level":"Yellow",
+         "justification":"The policy states that it may be updated and advises users to review the page periodically for changes. Notification of changes will be made by posting the updated policy on the page.",
+         "snippet":"We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately, after they are posted on this page."
+      },
+      "Control of Data":{
+         "application":"thestumbleguyz",
+         "risk_level":"Yellow",
+         "justification":"The policy outlines CCPA and GDPR rights, including the right to access, rectification, erasure, restriction of processing, objection to processing, and data portability. It provides contact information for exercising these rights.",
+         "snippet":"CCPA Privacy Rights (Do Not Sell My Personal Information)...GDPR Data Protection Rights...If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us."
+      },
+      "Data Aggregation":{
+         "application":"thestumbleguyz",
+         "risk_level":"Yellow",
+         "justification":"Log files collect non-personally identifiable information for analyzing trends and gathering demographic information, which implies data aggregation for these purposes.",
+         "snippet":"The purpose of the information is for analyzing trends, administering the site, tracking users’ movement on the website, and gathering demographic information."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Pluto TV",
+         "risk_level":"Yellow",
+         "justification":"Collected when signing up for Paramount Services and potentially for communication regarding privacy inquiries.",
+         "snippet":"We collect your information when you sign up for the Paramount Services...When updating you about any material changes, we may email you at the last email address you provided...If you have any questions or concerns regarding this privacy policy or would like to contact the data protection officer, please visit the Privacy Rights Center and select the relevant form."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Pluto TV",
+         "risk_level":"Green",
+         "justification":"While the policy mentions collecting information when signing up, it doesn't explicitly detail the collection of credit card numbers or home addresses in this overview. This information might be collected for paid services but isn't prominent in this excerpt.",
+         "snippet":"We collect your information when you sign up for the Paramount Services."
+      },
+      "Social Security Number":{
+         "application":"Pluto TV",
+         "risk_level":"Green",
+         "justification":"The policy does not mention the collection or use of Social Security Numbers.",
+         "snippet":"This privacy policy explains our practices — and your choices — on how we collect, use, and share your information when you interact with any of the Paramount Services."
+      },
+      "Ads and Marketing":{
+         "application":"Pluto TV",
+         "risk_level":"Yellow",
+         "justification":"Personal information, including device and advertising identifiers, commercial information, online activities, and location data, may be shared or sold for targeted advertising. Users have the right to opt-out via the 'Your Privacy Choices' link.",
+         "snippet":"Certain disclosures of information that we make to third parties or purposes for which we use information we receive from third parties constitute the “sale” of your personal information, “sharing” of your personal information (for “cross-context behavioral advertising” purposes), or “processing” of your personal information for purposes of “targeted advertising” under applicable laws...Where a brand does this or otherwise “sells” your personal information, we will give you the opportunity to opt out by clicking the “Your Privacy Choices” link on the footer of the relevant website, or in the settings menu of the relevant mobile or online application, or other service."
+      },
+      "Location":{
+         "application":"Pluto TV",
+         "risk_level":"Yellow",
+         "justification":"Location data, including IP addresses, may be collected and potentially shared or sold for targeted advertising purposes.",
+         "snippet":"Location data: Information related to your location, including your IP address...Each category of personal information listed above is “shared” with or “sold” to the following third parties to help us target and deliver personalized ads to you on the Paramount Services and Third-Party Services as described in this policy: ... Advertisers and other advertising partners..."
+      },
+      "Collecting PII of Children":{
+         "application":"Pluto TV",
+         "risk_level":"Yellow",
+         "justification":"The general Paramount Services are not intended for children. For child-directed services, only limited PII (IP addresses, device identifiers, limited viewing info) is collected for internal operations and contextual advertising, with restrictions on partner use.",
+         "snippet":"The Paramount Services covered by this privacy policy are generally not intended for use by children. Instead, our child-directed Paramount Services, including our policies around parental consent, are covered by our Children’s Privacy Policy. In channels available through our general audience Paramount Services, or in areas of those Paramount Services that are directed to children, we collect only a limited amount of personal information, as permitted by law. Specifically, we may collect IP addresses, device identifiers, certain unique ID numbers, and limited viewing information. We do not use (or allow our partners to use) this information, other than for the purposes of supporting our internal operations, such as to provide children with access to features and activities on the services, to customize content and improve our services, to serve contextual advertising, or limit how often a particular advertisement is seen."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Pluto TV",
+         "risk_level":"Yellow",
+         "justification":"The policy mentions sharing personal information to comply with legal obligations and to protect themselves, which could include disclosures to law enforcement when legally required.",
+         "snippet":"We share personal information as part of a corporate transactions, to comply with our legal obligations, and to protect ourselves."
+      },
+      "Policy Change Notification":{
+         "application":"Pluto TV",
+         "risk_level":"Yellow",
+         "justification":"The policy states that it may be updated and that users will be informed of material changes via email, website/app notices, or other legally permitted means.",
+         "snippet":"We may update this privacy policy based on new technologies, industry practices, regulatory requirements, or for other purposes. We will let you know if these changes are material and, where required by applicable law, we will obtain your consent or provide an opportunity to object before such changes take effect. When updating you about any material changes, we may email you at the last email address you provided, post a notice on our websites or applications, or inform you by any other means permitted by applicable law."
+      },
+      "Control of Data":{
+         "application":"Pluto TV",
+         "risk_level":"Yellow",
+         "justification":"Users have rights and choices regarding their personal information, accessible through the Privacy Rights Center. Specific US state rights, including opting out of sale/sharing/targeted advertising and the right to appeal, are also mentioned.",
+         "snippet":"You may have certain rights and choices regarding your personal information, such as the right to ask us for a copy of the information we hold about you. These rights are not available everywhere and may be limited by local laws...To exercise any of these rights or choices, please visit our Privacy Rights Center and select the relevant form...In certain U.S. States...you also have the following rights: Opt out of Sale/Sharing/Targeted Advertising...Appeal."
+      },
+      "Data Aggregation":{
+         "application":"Pluto TV",
+         "risk_level":"Yellow",
+         "justification":"The policy mentions processing personal information to analyze and improve the Paramount Services, which likely involves aggregating data for these purposes. Deidentified information processing is also mentioned.",
+         "snippet":"We also process your personal information to analyze the Paramount Services, to improve the Paramount Services...To the extent we process deidentified information, we will maintain and use the information in deidentified form and will not attempt to reidentify the information unless permitted by applicable law."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Wyrmwood Gaming",
+         "risk_level":"Yellow",
+         "justification":"Collected when backing campaigns, making purchases, or signing up for mailing lists. Used for communication, customer service, and marketing (with opt-in).",
+         "snippet":"Your name, email address, phone number, and mailing address when you back one of our Kickstarter campaigns or buy something in one of our pledge managers...Your name and email address when you sign up for one of our mailing lists...If you contact us, we may use your information to contact you through email or a comment/message on Kickstarter or social media...We send infrequent emails to newsletter lists if you opted into one of them...We may email you about upcoming or live Kickstarter campaigns, but only if you signed up for our mailing list."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Wyrmwood Gaming",
+         "risk_level":"Yellow",
+         "justification":"Mailing address is collected for shipping purchases and rewards. While not explicitly mentioned in this excerpt, credit card information would be collected during purchases but is likely handled by payment processors.",
+         "snippet":"Your name, email address, phone number, and mailing address when you back one of our Kickstarter campaigns or buy something in one of our pledge managers...We use your name, address, and phone number to ship you items you have purchased or as a reward for pledging for one of our Kickstarter campaigns."
+      },
+      "Social Security Number":{
+         "application":"Wyrmwood Gaming",
+         "risk_level":"Green",
+         "justification":"The policy does not mention the collection or use of Social Security Numbers.",
+         "snippet":"We collect the following information: Your name, email address, phone number, and mailing address..."
+      },
+      "Ads and Marketing":{
+         "application":"Wyrmwood Gaming",
+         "risk_level":"Yellow",
+         "justification":"Email addresses are used for newsletters and campaign updates (with opt-in). Data collected may be used to serve ads through third parties like Facebook or Twitter.",
+         "snippet":"We send infrequent emails to newsletter lists if you opted into one of them...We may email you about upcoming or live Kickstarter campaigns, but only if you signed up for our mailing list...We may use data we have collected about you to serve ads to you through third-parties like Facebook or Twitter."
+      },
+      "Location":{
+         "application":"Wyrmwood Gaming",
+         "risk_level":"Green",
+         "justification":"While mailing addresses are collected for shipping, the policy does not explicitly mention tracking or using location data beyond what is necessary for fulfillment.",
+         "snippet":"Your name, email address, phone number, and mailing address when you back one of our Kickstarter campaigns or buy something in one of our pledge managers."
+      },
+      "Collecting PII of Children":{
+         "application":"Wyrmwood Gaming",
+         "risk_level":"Green",
+         "justification":"The policy does not contain specific clauses regarding the collection of PII from children.",
+         "snippet":"We collect the following information: Your name, email address, phone number, and mailing address..."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Wyrmwood Gaming",
+         "risk_level":"Green",
+         "justification":"The policy does not explicitly mention sharing personal information with law enforcement. This would likely be addressed if legally required.",
+         "snippet":"We use your personal information in the following ways: We use your name, address, and phone number to ship you items you have purchased..."
+      },
+      "Policy Change Notification":{
+         "application":"Wyrmwood Gaming",
+         "risk_level":"Yellow",
+         "justification":"The policy reserves the right to change, with significant changes reflected on the page and communicated through their newsletter.",
+         "snippet":"We reserve the right to change this privacy policy. Any significant changes will be reflected here and communicated through our newsletter."
+      },
+      "Control of Data":{
+         "application":"Wyrmwood Gaming",
+         "risk_level":"Yellow",
+         "justification":"Users can contact them with concerns about the privacy policy for resolution. The policy emphasizes opt-in for mailing lists.",
+         "snippet":"If you have any concerns about our privacy policy, please contact us so we can work with you to resolve it...We do NOT automatically add you to our mailing lists -- you have to opt-in."
+      },
+      "Data Aggregation":{
+         "application":"Wyrmwood Gaming",
+         "risk_level":"Yellow",
+         "justification":"The policy mentions using third parties to track website traffic data to understand site usage, which implies data aggregation for analytical purposes.",
+         "snippet":"We DO use third-parties to track our website traffic data so we can understand how our site is being used."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Indeed Recruitment",
+         "risk_level":"Yellow",
+         "justification":"Collected for communication during recruitment and onboarding, and for exercising data rights. Used for notifications about policy changes.",
+         "snippet":"Contact information – such as name, address, telephone, email address...If Indeed is going to use personal data in a manner materially different from that stated at the time of collection, then Indeed will notify users via email...When you request access to your candidate’s personal data, these will be sent to the email address associated with your user account..."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Indeed Recruitment",
+         "risk_level":"Yellow",
+         "justification":"Home address is collected as part of contact information. While not explicitly stated, financial information like bank account details are collected for payroll and benefits if hired.",
+         "snippet":"Contact information – such as name, address, telephone, email address...Financial information and government identification documents, such as bank account details passport, and national security numbersProcessing payroll, compensation, and benefits."
+      },
+      "Social Security Number":{
+         "application":"Indeed Recruitment",
+         "risk_level":"Yellow",
+         "justification":"National security numbers are collected for processing payroll, compensation, and benefits, and for background checks.",
+         "snippet":"Financial information and government identification documents, such as bank account details passport, and national security numbersProcessing payroll, compensation, and benefits. To perform background checks."
+      },
+      "Ads and Marketing":{
+         "application":"Indeed Recruitment",
+         "risk_level":"Yellow",
+         "justification":"The policy mentions sharing personal data with advertising-related companies like Google and Meta in Japan for advertisement delivery and effectiveness verification. It also notes that Indeed does not sell or share personal data as defined under CCPA.",
+         "snippet":"For the purposes described in our Data Collection and Use section, such as advertisement delivery and its effectiveness verification, Indeed collaborates with Google, Meta, and other advertising-related companies for personal data or personal-related information...Indeed does not sell or share your personal data as defined in CCPA."
+      },
+      "Location":{
+         "application":"Indeed Recruitment",
+         "risk_level":"Yellow",
+         "justification":"Address is collected as part of contact information. The policy also discusses international data transfers.",
+         "snippet":"Contact information – such as name, address, telephone, email address...Indeed is a global organization with offices in multiple locations around the world. This means we may transfer your personal information to other Indeed entities, third parties or business partners in various countries."
+      },
+      "Collecting PII of Children":{
+         "application":"Indeed Recruitment",
+         "risk_level":"Green",
+         "justification":"The policy focuses on recruitment and does not contain specific clauses regarding the collection of PII from children in that context. It states they do not knowingly sell or share personal information of consumers under 16 in compliance with CCPA.",
+         "snippet":"In compliance with CCPA, we affirm that we do not have actual knowledge of selling or sharing the personal information of consumers, including of those under 16 years of age."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Indeed Recruitment",
+         "risk_level":"Yellow",
+         "justification":"The policy states that Indeed Inc. may disclose personal information in response to lawful requests by public authorities, including for national security or law enforcement requirements.",
+         "snippet":"Indeed Inc. shall, where required, disclose personal information in response to lawful requests by public authorities, including to meet national security or law enforcement requirements."
+      },
+      "Policy Change Notification":{
+         "application":"Indeed Recruitment",
+         "risk_level":"Yellow",
+         "justification":"Users will be notified via email and/or by posting a notice on the applicable Sites for 30 days prior to any materially different use of personal data. The policy can be amended at any time.",
+         "snippet":"If Indeed is going to use personal data in a manner materially different from that stated at the time of collection, then Indeed will notify users via email and/or by posting a notice on the applicable Sites for 30 days prior to such use...Indeed reserves the right to amend this Privacy Policy at any time."
+      },
+      "Control of Data":{
+         "application":"Indeed Recruitment",
+         "risk_level":"Yellow",
+         "justification":"Users have various rights depending on their location, including rectification, objection, access, portability, and deletion. A form is provided to exercise these rights. The policy also discusses authorized agents.",
+         "snippet":"Depending on your location you may have rights available to you with respect to your candidate’s personal data held by Indeed...If you want to request that any of these rights be actioned in relation to your personal data, please complete this form...You may use an authorized agent to submit a request on your behalf."
+      },
+      "Data Aggregation":{
+         "application":"Indeed Recruitment",
+         "risk_level":"Yellow",
+         "justification":"The policy mentions using AI to filter, sort, and match applicants, which implies automated processing and analysis of candidate data.",
+         "snippet":"We also use AI to filter, sort and match applicants who have applied to roles at Indeed."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Venmo",
+         "risk_level":"Yellow",
+         "justification":"Collected for account information and communication. Used for privacy-related inquiries and notifications about security breaches or policy changes.",
+         "snippet":"You may also email us at privacy@venmo.com with any privacy-related questions you have...If Venmo learns of a systems security breach, we may attempt to notify you electronically...We may also send an email to you at the email address you have provided to us...please email us at privacy@venmo.com"
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Venmo",
+         "risk_level":"Yellow",
+         "justification":"Home address is collected for identification. Credit card numbers linked to the account are collected for transactions but are not disclosed to those you pay or who pay you, except with express permission or legal obligation.",
+         "snippet":"Identification Information - your name, street address, email address, date of birth, and Social Security number...Financial Information - ...credit cards linked to your Venmo account...Regardless, we will not disclose your credit card number or bank account number to anyone you have paid or who has paid you through Venmo, except with your express permission or if we are required to do so in order to comply with a subpoena or other legal process."
+      },
+      "Social Security Number":{
+         "application":"Venmo",
+         "risk_level":"Yellow",
+         "justification":"SSN is collected for identification purposes.",
+         "snippet":"Identification Information - your name, street address, email address, date of birth, and Social Security number (\"SSN\") (or other governmental issued verification numbers)."
+      },
+      "Ads and Marketing":{
+         "application":"Venmo",
+         "risk_level":"Yellow",
+         "justification":"The policy states that Venmo does not disclose personal information with third parties for their promotional or marketing purposes. However, they do use personal information to customize, personalize, measure, and improve their services and content, including showing location-based promotions.",
+         "snippet":"Venmo does not disclose your personal information with third parties for their promotional or marketing purposes...customize, personalize, measure, and improve our services and the content and layout of our website, including showing you location-based promotions and business profiles;"
+      },
+      "Location":{
+         "application":"Venmo",
+         "risk_level":"Yellow",
+         "justification":"Geolocation Information is collected for fraud and risk purposes and to enhance services if the user consents. Business profiles can also use addresses for location-based promotions.",
+         "snippet":"We also may collect Geolocation Information...Geolocation Information - information that identifies with reasonable specificity your location...We will collect this data for fraud and risk purposes...if you elect to disclose your Geolocation Information, we will use this information to enhance the security of the Services and we may use this information to provide you with location-based options, functionality, offers, advertising, search results, or other location-based content...if you have a business profile, you can choose to use your address to offer location-based promotions to Venmo users near you;"
+      },
+      "Collecting PII of Children":{
+         "application":"Venmo",
+         "risk_level":"Yellow",
+         "justification":"The Services are not directed to children under 13, and any collected PII from this age group will be promptly deleted unless legally obligated to retain it. There are specific sections for Teen Users (13-17) outlining collected data and parental/teen rights.",
+         "snippet":"The Services are not directed to children under the age of 13. If we obtain actual knowledge that we have collected personal information from a child under the age of 13, we will promptly delete it, unless we are legally obligated to retain such data...In this section we explain how we handle your data if you use a Venmo Teen Account...We will not collect more information about you than what is required to use the Teen Account."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Venmo",
+         "risk_level":"Yellow",
+         "justification":"Personal information may be disclosed to law enforcement, government officials, or other third parties if compelled by legal process, to comply with law, or when necessary to prevent harm or investigate violations.",
+         "snippet":"Law enforcement, government officials, or other third parties if PayPal is compelled to do so by a subpoena, court order or similar legal procedure; when it is necessary to do so to comply with law; or where the disclosure of personal information is reasonably necessary to prevent physical harm or financial loss, to report suspected illegal activity, or to investigate violations of the Venmo User Agreement, or as otherwise required by law."
+      },
+      "Policy Change Notification":{
+         "application":"Venmo",
+         "risk_level":"Yellow",
+         "justification":"Users will receive 30 days prior notice of material changes to the Privacy Statement via website and mobile app postings. Otherwise, the revised statement is effective as of the published date.",
+         "snippet":"If the revised version requires notice in accordance with applicable law, we will provide you with 30 days prior notice by posting notice of the change on the 'Privacy Statement' page of our website and mobile apps, otherwise the revised Privacy Statement will be effective as of the published effective date."
+      },
+      "Control of Data":{
+         "application":"Venmo",
+         "risk_level":"Yellow",
+         "justification":"Users can review and update their personal information in account settings. Teen users and account holders have rights to review, correct, and delete teen user data. Contact information is provided for privacy-related requests.",
+         "snippet":"You can review and update your personal information in your account settings at any time by logging in to your account...Along with the Account Holder, you may review the personal information we have about you. You may also request your data be corrected if it is wrong or have it deleted...Account Holders that wish to exercise their Teen User access rights, please log on to your account through the browser and submit the data access requests under the privacy link."
+      },
+      "Data Aggregation":{
+         "application":"Venmo",
+         "risk_level":"Yellow",
+         "justification":"The policy mentions collecting and analyzing standard web log information and using cookies for analytics and to improve services. They also mention associating transaction information from other PayPal services to personalize content and improve Venmo services.",
+         "snippet":"When you visit the website or use one of our mobile applications or other Services, we collect your IP address, and standard web log information, such as your browser type and the pages you accessed on our website...We use Cookies to...perform a wide range of analytics...if you use one of the following services: PayPal and PayPal Honey; we may associate information about your transactions and experiences using these services to personalize content and offers and improve your use of the Venmo Services."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Discord",
+         "risk_level":"Yellow",
+         "justification":"Collected as a contact method for account creation and verification. Also used for contacting users about policy changes, product updates, and for privacy-related inquiries.",
+         "snippet":"provide a way of contacting you (such as an email address and/or phone number)...We may also use your information to contact you about important product or policy changes...If you have any questions about these rights or wish to exercise control over your information, please reach out to privacy@discord.com."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Discord",
+         "risk_level":"Yellow",
+         "justification":"Collected for processing payments for paid services. Payment information is processed by third-party processors, but Discord may store certain billing information (last four digits of card). Billing address is collected as associated billing information.",
+         "snippet":"you may need to submit a valid payment method and associated billing information, including your full name and billing address...Our payment processors, like Stripe and PayPal, receive and process your payment information...we may also receive and store certain billing information, including the last four digits of the credit card number associated with the transaction."
+      },
+      "Social Security Number":{
+         "application":"Discord",
+         "risk_level":"Low",
+         "justification":"The policy does not explicitly state that Social Security Numbers are collected from general users. It mentions tax identification information might be required for users selling through Discord, which is a specific scenario.",
+         "snippet":"If you sell something through Discord, you may be required to provide additional information to Discord or to our payment processors, such as bank account information to facilitate payments, tax identification information, and copies of government issued identification required to identify users in accordance with regulatory obligations."
+      },
+      "Ads and Marketing":{
+         "application":"Discord",
+         "risk_level":"Yellow",
+         "justification":"Discord states they don't sell personal information and their business is based on subscriptions and paid products. However, they do use certain information to assist in their own advertising on other platforms and may contact users about new products or features they might like (with opt-out options). They also personalize the product experience.",
+         "snippet":"We don’t sell your personal information...We may tell you about our paid services and other features directly in the services and through our own channels, and we spend money advertising Discord on other platforms...We use your information to personalize our services...This information also helps us surface Discord features and promotions from us and our partners that may be of interest to you...You may opt-out of receiving such marketing communications."
+      },
+      "Location":{
+         "application":"Discord",
+         "risk_level":"Yellow",
+         "justification":"Information about the user's device, including IP address, is collected automatically, which can provide a general indication of location. The policy doesn't explicitly mention collecting precise geolocation data.",
+         "snippet":"we collect information about the device you are using to access the services. For example, this includes information like your IP address..."
+      },
+      "Collecting PII of Children":{
+         "application":"Discord",
+         "risk_level":"Yellow",
+         "justification":"Users need to provide their birthday, and in some cases, Discord may require additional information to verify age. The policy doesn't have a specific section detailing the handling of children's PII like Venmo's 'Teen Users' section, but age verification indicates an awareness of age-related considerations.",
+         "snippet":"You’ll also need to provide your birthday. In some cases, we may require additional information to verify your age...The default and availability of some of these settings may be different depending on factors like your age or location."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Discord",
+         "risk_level":"Yellow",
+         "justification":"Discord may disclose information in response to legal requests, if required by law, including national security or law enforcement requirements.",
+         "snippet":"We may disclose information in response to a request for information if we believe disclosure is required by law, including meeting national security or law enforcement requirements."
+      },
+      "Policy Change Notification":{
+         "application":"Discord",
+         "risk_level":"Yellow",
+         "justification":"The policy states that they will update the Privacy Policy and indicate the last updated date. For significant changes, they will provide a more prominent notice as required by law, such as via email or in-app notifications.",
+         "snippet":"We will update this Privacy Policy from time to time...if changes are significant, we’ll provide a more prominent notice as required by law, such as by emailing you or highlighting the changes within the services."
+      },
+      "Control of Data":{
+         "application":"Discord",
+         "risk_level":"Yellow",
+         "justification":"Discord provides users with controls over their privacy, including choosing spaces to participate in, customizing personal settings, limiting data usage for service improvement and personalization, disabling or deleting accounts, managing content and servers, and accessing their information.",
+         "snippet":"We give you control...We offer a number of settings that allow you to tailor your experience within Discord...You can disable or delete your account via the User Settings menu...You may edit or delete specific pieces of information within the services...If you want to see what information we have collected about you, you can request a copy of your data..."
+      },
+      "Data Aggregation":{
+         "application":"Discord",
+         "risk_level":"Yellow",
+         "justification":"Discord may disclose aggregated or de-identified information that cannot reasonably be used to identify individuals, for example, sharing user statistics.",
+         "snippet":"We may disclose information that has been aggregated or anonymized such that it cannot reasonably be used to identify you. For example, we may share aggregated user statistics in order to describe our business, features, or promotions to partners or the public."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Hulu",
+         "risk_level":"Yellow",
+         "justification":"Collected during registration and may be used for promotional communications, customer service, and for California residents to request removal of content or information.",
+         "snippet":"when you register to use the Hulu Services, we may collect your name, email address, birth date, gender, credit card information, billing address, ZIP code, and other information...You may opt out of receiving promotional communications from Hulu by accessing your account and clicking on “Manage Email Notifications.”...To make this request, please email us at privacy@hulu.com and include a detailed description of the specific content or information you would like to remove."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Hulu",
+         "risk_level":"Yellow",
+         "justification":"Credit card information and billing address are collected for payment processing. Hulu uses a third-party payment processor for this.",
+         "snippet":"when you register to use the Hulu Services, we may collect your name, email address, birth date, gender, credit card information, billing address, ZIP code, and other information...We use payment information, such as credit card numbers and billing ZIP code, to help provide the Hulu Services. For example, we use payment information to process payments from a subscriber (we use a third-party payment processor to do this)..."
+      },
+      "Social Security Number":{
+         "application":"Hulu",
+         "risk_level":"Low",
+         "justification":"The privacy policy does not mention the collection of Social Security Numbers.",
+         "snippet":"Hulu may collect the following information from or about you: Information You Provide To Us. We collect information you provide to us. For instance, when you register to use the Hulu Services, we may collect your name, email address, birth date, gender, credit card information, billing address, ZIP code, and other information."
+      },
+      "Ads and Marketing":{
+         "application":"Hulu",
+         "risk_level":"Yellow",
+         "justification":"Hulu uses collected information for promotional purposes and to customize advertising. Users can opt out of promotional communications and some third-party online behavioral advertising.",
+         "snippet":"contacting you, including for promotional purposes; customizing the Content and advertising you view and evaluating how well the Content and advertising perform;...You may opt out of receiving promotional communications from Hulu by accessing your account and clicking on “Manage Email Notifications.”...To learn more and to make choices about the use of your information for online behavioral advertising on websites, please visit the Digital Advertising Alliance WebChoices tool."
+      },
+      "Location":{
+         "application":"Hulu",
+         "risk_level":"Yellow",
+         "justification":"Hulu may collect location data, including precise location data from mobile devices with user consent, to provide location-based content and advertising. Users can opt out of precise location data collection in device settings.",
+         "snippet":"location (which may include precise location data)...In order to access certain Hulu Services from your mobile device, you may be required to share your device’s precise location data (e.g., latitude and longitude) with us...You can opt out of our collection of precise location data from your mobile device in your device settings, for example, by disabling “Location Services” for the Hulu application in your iOS device’s settings."
+      },
+      "Collecting PII of Children":{
+         "application":"Hulu",
+         "risk_level":"Yellow",
+         "justification":"Children under 13 are not permitted to register with Hulu, and the services are not intended for use by children without parental involvement.",
+         "snippet":"Children under 13 years of age are not permitted to register with Hulu. The Hulu Services are not intended to be used by children without involvement and approval of a parent or guardian."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Hulu",
+         "risk_level":"Yellow",
+         "justification":"Hulu may disclose information when required by law or legal process, or when necessary to protect their rights or the safety of users or third parties.",
+         "snippet":"to comply with or respond to the law or legal process or a request for cooperation by a government entity, whether or not legally required."
+      },
+      "Policy Change Notification":{
+         "application":"Hulu",
+         "risk_level":"Yellow",
+         "justification":"Hulu may revise the Privacy Policy, and users are advised to check the effective date for updates. Material changes will be reflected.",
+         "snippet":"From time to time, we may revise this Privacy Policy to reflect changes in the law or the Hulu Services or for other reasons...it is important to check the effective date posted at the top of the Privacy Policy each time you visit the Hulu Site or use any of the Hulu Services to ensure you are familiar with our most updated policies and practices. If we make any material changes..."
+      },
+      "Control of Data":{
+         "application":"Hulu",
+         "risk_level":"Yellow",
+         "justification":"Users have choices regarding promotional communications, Nielsen measurement, and online behavioral advertising. California residents have additional rights to request information about data sharing for direct marketing and removal of publicly posted content (if under 18). Users can also manage video sharing preferences and delete their accounts.",
+         "snippet":"You have the following choices regarding how we and third parties use certain information collected from or about you...You may opt out of receiving promotional communications from Hulu by accessing your account and clicking on “Manage Email Notifications.”...If you are a California resident, you may be entitled to request certain information regarding our disclosure...You may delete your Hulu account..."
+      },
+      "Data Aggregation":{
+         "application":"Hulu",
+         "risk_level":"Yellow",
+         "justification":"Hulu may aggregate or de-identify information for various business purposes, including research, analysis, and advertising.",
+         "snippet":"In addition to the individual data use described in this Privacy Policy, we may aggregate information about you and other individuals together, or otherwise “de-identify” the information about you (which means that the information does not identify you personally). We may use information in these forms for any legitimate business purpose, including for research and analysis, administration of the Hulu Services, advertising (e.g., improving our targeting efforts), and promotional purposes."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Reddit",
+         "risk_level":"Yellow",
+         "justification":"Collected during account creation (optional depending on sign-up method) and used for communication, account recovery, and potentially promotional purposes. Users can manage email options.",
+         "snippet":"If you create a Reddit account, your account will have a username...You may need to provide a password, depending on whether you register using an email address, Single Sign-On (SSO) feature (such as Apple or Google), or phone number...You may opt out of receiving some or all categories of promotional communications from us by following the instructions in those communications or by updating your email options in your account preferences here."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Reddit",
+         "risk_level":"Yellow",
+         "justification":"Collected for purchases of products or services through Reddit. Payment processing is handled by third-party services with their own privacy policies.",
+         "snippet":"If you purchase products or services from us or otherwise through the Services, you will have to provide payment information in order to complete your purchase. Reddit uses industry-standard payment processor services (such as Stripe) to handle payment information, and those services are subject to separate terms and conditions and privacy policies."
+      },
+      "Social Security Number":{
+         "application":"Reddit",
+         "risk_level":"Yellow",
+         "justification":"Collected from Reddit Program participants (e.g., Contributor Program) for eligibility determination, payments, and legal compliance, often indirectly through third-party providers with their own privacy policies.",
+         "snippet":"If you sign up to participate in a Reddit Program (for example, our Contributor Program), we collect, directly or indirectly through our providers, some additional information from you (such as your name, date of birth, address, email, tax, government ID, and payment information)."
+      },
+      "Ads and Marketing":{
+         "application":"Reddit",
+         "risk_level":"Yellow",
+         "justification":"Reddit uses collected information to personalize and target ads. Users have options to control personalized advertising and promotional communications.",
+         "snippet":"provide, optimize, target, and measure the effectiveness of ads shown on our Services;...Communicate with you about products, services, offers, promotions, events, and programs, and provide other news and information we think will be of interest to you (for information about how to opt out of these communications, see “Your Choices” below);...You may opt out of us using information we collect from third parties, including advertising partners, to personalize the ads you see on Reddit."
+      },
+      "Location":{
+         "application":"Reddit",
+         "risk_level":"Yellow",
+         "justification":"Reddit may collect approximate location based on IP address and precise location if users choose to share it. This is used for personalization. Users can control location customization.",
+         "snippet":"we may derive an approximate location based on your IP address...We may receive location information from you when you choose to share such information on our Services, including via the Location Customization setting or by associating your content with a location...You can control how we use location information for feed and recommendations customization via the Location Customization setting in your Account Settings."
+      },
+      "Collecting PII of Children":{
+         "application":"Reddit",
+         "risk_level":"Not Mentioned",
+         "justification":"The privacy policy does not explicitly address the collection of PII from children or age restrictions for using the platform.",
+         "snippet":"At Reddit, we believe that privacy is a right. We want to empower our users to be the masters of their identity."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Reddit",
+         "risk_level":"Yellow",
+         "justification":"Reddit may share information to comply with legal obligations, legal processes, or governmental requests.",
+         "snippet":"To comply with the law. We may share information if we believe disclosure is in accordance with, or required by, any applicable law, regulation, legal process, or governmental request, including, but not limited to, meeting national security or law enforcement requirements."
+      },
+      "Policy Change Notification":{
+         "application":"Reddit",
+         "risk_level":"Green",
+         "justification":"The policy states the effective and last revised dates but doesn't detail how users will be notified of future changes.",
+         "snippet":"Effective: August 16, 2024. Last Revised: August 16, 2024."
+      },
+      "Control of Data":{
+         "application":"Reddit",
+         "risk_level":"Yellow",
+         "justification":"Users have rights to access, change, and delete their information and accounts. They can control linked services, personalized advertising, cookies, and promotional communications. Users in EEA and UK have additional rights. California users also have specific rights under CCPA.",
+         "snippet":"You have choices about how to protect and limit the collection, use, and sharing of information about you when you use the Services...You can access your information and change or correct certain information through the Services...You may delete your account information at any time...You may opt out of us using information we collect from third parties...Users in the EEA and UK have the right to request access to, rectification of, or erasure of their personal data...If you are a California resident, you have additional rights under the CCPA..."
+      },
+      "Data Aggregation":{
+         "application":"Reddit",
+         "risk_level":"Yellow",
+         "justification":"Reddit may share aggregated or de-identified information that cannot reasonably be used to identify individuals.",
+         "snippet":"Aggregated or de-identified information. We may share information about you that has been aggregated or anonymized such that it cannot reasonably be used to identify you. For example, we may show the total number of times a post has been upvoted without identifying who the visitors were, or we may tell an advertiser how many people saw their ad."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Google Payments",
+         "risk_level":"Yellow",
+         "justification":"Associated with the Google Account used for Google Payments and may be shared with third parties during transactions or when linking payment methods.",
+         "snippet":"When you sign up for Google Payments, you are creating a Google payments profile that is associated with your Google Account...When you add a third-party payment method to your Google payments profile, we may exchange certain personal information with the third-party payment provider so we can both provide the service to you. The information may include your name, profile image, email..."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Google Payments",
+         "risk_level":"Red",
+         "justification":"Explicitly collected as registration information and may be shared with merchants and payment processors to complete transactions and maintain the account.",
+         "snippet":"Credit or debit card number and card expiry date...Address...Your registration of a payment method will be stored on Google's servers...When you make a purchase through a website or app with Google Pay, we might share your ZIP code or postcode and information about your payment method..."
+      },
+      "Social Security Number":{
+         "application":"Google Payments",
+         "risk_level":"Red",
+         "justification":"May be collected as part of registration information (National Insurance number or Taxpayer Identification Number) for identity verification.",
+         "snippet":"National Insurance number or Taxpayer Identification Number (or other government-issued identification numbers)...In some cases, we may also ask you to send us additional information or to answer additional questions to help verify your information or identity."
+      },
+      "Ads and Marketing":{
+         "application":"Google Payments",
+         "risk_level":"Yellow",
+         "justification":"Affiliates may market their products or services based on shared personal information, but users have the right to opt out of this sharing.",
+         "snippet":"Our affiliates marketing their products or services to you based on your personal information that we collect and share with them. This information includes your account history with us...You may also choose to opt out of Google LLC or its affiliates informing a third-party merchant, whose site or app you visit, whether you have a Google payments profile."
+      },
+      "Location":{
+         "application":"Google Payments",
+         "risk_level":"Yellow",
+         "justification":"May be collected (merchant's location during transactions, approximate location via IP when linking payment methods) and shared with merchants for transaction details.",
+         "snippet":"The merchant's location and description...When you add a third-party payment method to your Google payments profile, we may exchange certain personal information with the third-party payment provider so we can both provide the service to you. The information may include your name, profile image, email, Internet protocol (IP) address, billing address, phone number, device information, location..."
+      },
+      "Collecting PII of Children":{
+         "application":"Google Payments",
+         "risk_level":"Green",
+         "justification":"Explicitly points to a 'Google payments privacy guide for children' for users under 18, indicating awareness and separate handling of children's data.",
+         "snippet":"If you are under the age of 18, you can find additional resources in the Google Teen Privacy Guide and the Google payments privacy guide for children."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Google Payments",
+         "risk_level":"Yellow",
+         "justification":"Subject to the general Google Privacy Policy, which includes provisions for sharing information when legally required.",
+         "snippet":"As permitted under the Google Privacy Policy...As permitted by law."
+      },
+      "Policy Change Notification":{
+         "application":"Google Payments",
+         "risk_level":"Green",
+         "justification":"States the 'Last modified' date but does not detail the method for notifying users of future changes.",
+         "snippet":"Last modified: 4 March 2025"
+      },
+      "Control of Data":{
+         "application":"Google Payments",
+         "risk_level":"Yellow",
+         "justification":"Users can manage certain privacy settings, including opting out of sharing creditworthiness information and marketing by affiliates, and informing merchants about their Google Payments profile.",
+         "snippet":"We provide you with the right to opt out of certain sharing between GPC and its affiliates, if applicable...You may also choose to opt out of Google LLC or its affiliates informing a third-party merchant...please indicate your preference by logging in to your account, and going to your Google Payments privacy settings to update your privacy preferences."
+      },
+      "Data Aggregation":{
+         "application":"Google Payments",
+         "risk_level":"Not Explicitly Mentioned",
+         "justification":"While the policy discusses sharing fraud risk scores, it doesn't explicitly detail the aggregation or de-identification of personal data for other purposes.",
+         "snippet":"To share fraud risk scores and other fraud assessments with third parties that use Google’s risk score and fraud prevention services, in order to protect your transactions with third parties from fraud and abuse."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Uber (Riders and Order Recipients)",
+         "risk_level":"Yellow",
+         "justification":"Collected during account creation and may be used for communication, account updates, marketing (with opt-out), and shared with other users or business partners under certain circumstances.",
+         "snippet":"Email...We collect data when you create or update your Uber account...To send non-marketing communications to users...For marketing and advertising...Uber may share data: 1. With other users...2. Upon request or with your consent...3. With Uber service providers and business partners"
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Uber (Riders and Order Recipients)",
+         "risk_level":"Red",
+         "justification":"Payment method (including related payment verification information) and address are collected for payment processing and service provision. Address is also used for pickup/dropoff locations and may be shared with drivers and merchants.",
+         "snippet":"Payment method (including related payment verification information)...Address...Trip/order infoRequested pickup and dropoff...Restaurants/merchants you order from, and your delivery person...Order infoDelivery address..."
+      },
+      "Social Security Number":{
+         "application":"Uber (Riders and Order Recipients)",
+         "risk_level":"Green",
+         "justification":"The privacy notice does not explicitly mention the collection of Social Security Numbers.",
+         "snippet":"The data we collect: 1. Data you provide: This includes: a. Account information...b. Demographic data...c. Identity verification information...d. User content...e. Travel information."
+      },
+      "Ads and Marketing":{
+         "application":"Uber (Riders and Order Recipients)",
+         "risk_level":"Yellow",
+         "justification":"Uber uses collected data for marketing its services and those of partners, including personalized communications and targeted ads. Users can opt out of ad personalization.",
+         "snippet":"For marketing and advertising...Personalizing marketing communications and ads relating to Uber products and services, and those offered by other companies...Displaying ads that are targeted based on data about your current trip or delivery request...You may opt out from ad personalization here."
+      },
+      "Location":{
+         "application":"Uber (Riders and Order Recipients)",
+         "risk_level":"Red",
+         "justification":"Precise location data is collected during rides and orders (if permitted) and approximate location is always determined. This data is crucial for service functionality and is shared with drivers and potentially other users.",
+         "snippet":"Precise location...Approximate location...If you request a ride, we track your driver’s location during your trip, and link that data to your account...We also determine your approximate location, and can determine your precise location if you allow us to do so through the settings on your phone...Your driver...Pickup and/or dropoff locations...Users with whom you use data-sharing features...Location"
+      },
+      "Collecting PII of Children":{
+         "application":"Uber (Riders and Order Recipients)",
+         "risk_level":"Yellow",
+         "justification":"Collects date of birth/age to verify eligibility for age-restricted services like Uber for teens or purchases of alcohol/tobacco/cannabis, indicating a focus on preventing underage use.",
+         "snippet":"We collect your date of birth and/or age to verify your eligibility to use age-restricted products or services, such as Uber for teens, or if you purchase alcohol, tobacco or cannabis products."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Uber (Riders and Order Recipients)",
+         "risk_level":"Yellow",
+         "justification":"Uber may share data with law enforcement officials and other government authorities when legally required or in connection with legal proceedings or safety concerns.",
+         "snippet":"For legal proceedings and requirements...Uber may share your data if we believe it’s required by applicable law, regulation, operating license or agreement, legal process or governmental request...This includes sharing data with law enforcement officials, public health officials, other government authorities..."
+      },
+      "Policy Change Notification":{
+         "application":"Uber (Riders and Order Recipients)",
+         "risk_level":"Green",
+         "justification":"Mentions updates to the Privacy Notice but does not specify the method of notification to users.",
+         "snippet":"D. Updates to this Privacy Notice"
+      },
+      "Control of Data":{
+         "application":"Uber (Riders and Order Recipients)",
+         "risk_level":"Yellow",
+         "justification":"Users have choices regarding precise location data collection and can opt out of ad personalization. They can also request account deletion. The policy refers to further information on choice and transparency.",
+         "snippet":"See “Choice and transparency” section below for information on how to control whether Uber may collect your precise location data...You may opt out from ad personalization here...Users may request account deletion through the Uber apps and websites...Choice and transparency"
+      },
+      "Data Aggregation":{
+         "application":"Uber (Riders and Order Recipients)",
+         "risk_level":"Green",
+         "justification":"The policy focuses on data sharing with specific entities and the use of data for various purposes but does not explicitly detail the aggregation or de-identification of personal data.",
+         "snippet":"B. How we use data...E. Data sharing and disclosure"
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"YouTube",
+         "risk_level":"Yellow",
+         "justification":"Required for a Google account to use many YouTube features, and the Privacy Policy (referenced) details its use.",
+         "snippet":"However, you do need a Google account to use some features...Our Privacy Policy explains how we treat your personal data..."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"YouTube",
+         "risk_level":"Yellow",
+         "justification":"Likely collected for YouTube Paid Memberships and Purchases, as referenced in the terms, and would be covered under the Google Privacy Policy.",
+         "snippet":"YouTube Paid Memberships and Purchases (where available)...Our Privacy Policy explains how we treat your personal data..."
+      },
+      "Social Security Number":{
+         "application":"YouTube",
+         "risk_level":"Green",
+         "justification":"Not explicitly mentioned in the Terms of Service for collection.",
+         "snippet":"The content on the Service includes videos, audio...graphics, photos, text...branding...interactive features, software, metrics, and other materials..."
+      },
+      "Ads and Marketing":{
+         "application":"YouTube",
+         "risk_level":"Yellow",
+         "justification":"YouTube displays ads, and the terms mention policies regarding advertising on the platform. User data is likely used for ad personalization as detailed in the Google Privacy Policy.",
+         "snippet":"...acts as a distribution platform for original content creators and advertisers large and small...Your Agreement with us will also include the Advertising on YouTube Policies if you provide advertising or sponsorships to the Service..."
+      },
+      "Location":{
+         "application":"YouTube",
+         "risk_level":"Yellow",
+         "justification":"While not explicitly stated in the Terms of Service, location data is commonly used by Google services and could be collected as part of a Google account and used to personalize content or ads, as per the referenced Privacy Policy.",
+         "snippet":"Our Privacy Policy explains how we treat your personal data..."
+      },
+      "Collecting PII of Children":{
+         "application":"YouTube",
+         "risk_level":"Yellow",
+         "justification":"Specific terms address users under 13 and under 18, with parental consent required for the latter and YouTube Kids available for younger users, indicating a specific approach to children's data.",
+         "snippet":"You must be at least 13 years old to use the Service; however, children of all ages may use the Service and YouTube Kids (where available) if enabled by a parent or legal guardian...If you are under 18, you represent that you have your parent or guardian’s permission to use the Service...If you are a parent or legal guardian of a user under the age of 18, by allowing your child to use the Service, you are subject to the terms of this Agreement..."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"YouTube",
+         "risk_level":"Yellow",
+         "justification":"The terms allow for termination or suspension of accounts to comply with legal requirements or court orders, implying data may be shared under such circumstances.",
+         "snippet":"YouTube reserves the right to suspend or terminate your Google account or your access to all or part of the Service if (b) we are required to do so to comply with a legal requirement or a court order..."
+      },
+      "Policy Change Notification":{
+         "application":"YouTube",
+         "risk_level":"Yellow",
+         "justification":"The terms detail how changes to the agreement will be communicated, including providing reasonable advance notice for material changes.",
+         "snippet":"If we materially change this Agreement, we’ll provide you with reasonable advance notice and the opportunity to review the changes..."
+      },
+      "Control of Data":{
+         "application":"YouTube",
+         "risk_level":"Yellow",
+         "justification":"Users can remove their content and delete the service from their Google account, suggesting a degree of control over their data, further detailed in the referenced Privacy Policy.",
+         "snippet":"You may remove your Content from the Service at any time...You may stop using the Service at any time. Follow these instructions to delete the Service from your Google Account, which involves closing your YouTube channel and removing your data."
+      },
+      "Data Aggregation":{
+         "application":"YouTube",
+         "risk_level":"Green",
+         "justification":"The Terms of Service do not explicitly discuss data aggregation for purposes beyond service improvement and content analysis, which would likely be detailed in the referenced Privacy Policy.",
+         "snippet":"YouTube is constantly changing and improving the Service. As part of this continual evolution, we may make modifications or changes (to all or part of the Service) such as adding or removing features and functionalities..."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Zellepay.com Website",
+         "risk_level":"Yellow",
+         "justification":"Collected as a personal identifier and for B2B inquiries, marketing communications (with opt-out), and responding to requests.",
+         "snippet":"Name, email address, IP address, unique online identifiers...Directly from you when you use a form on the Website to request assistance...for business partner inquiries (B2B) made via our Website, to respond to your requests, send you information about our products and services...you can indicate your communication preference within the direct communication from us (e.g., using the unsubscribe link in the email you receive from us) or by emailing marketing@earlywarning.com."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Zellepay.com Website",
+         "risk_level":"Green",
+         "justification":"Not explicitly mentioned as being collected on the website. The notice distinguishes between the website and the Zelle app/banking app where this information would be relevant.",
+         "snippet":"This Privacy Notice applies to visitors of our website, zellepay.com...If you use Zelle® through your mobile banking app or online banking, please refer to your financial institution’s privacy notice."
+      },
+      "Social Security Number":{
+         "application":"Zellepay.com Website",
+         "risk_level":"Green",
+         "justification":"Not explicitly mentioned as being collected on the website.",
+         "snippet":"For the purpose of this Privacy Notice, “Personal Information” means information that identifies or can be used to identify you directly or indirectly. Examples of Personal Information include, but are not limited to, first and last name, email address, telephone number, IP address."
+      },
+      "Ads and Marketing":{
+         "application":"Zellepay.com Website",
+         "risk_level":"Yellow",
+         "justification":"Website data may be shared with service providers/third parties for cross-context behavioral advertising, and B2B contacts may receive marketing communications with an opt-out.",
+         "snippet":"Website data may be shared with our service providers/ third parties for cross-context behavioral advertising...for business partner inquiries (B2B) made via our Website, to respond to your requests, send you information about our products and services...you can indicate your communication preference within the direct communication from us (e.g., using the unsubscribe link in the email you receive from us) or by emailing marketing@earlywarning.com."
+      },
+      "Location":{
+         "application":"Zellepay.com Website",
+         "risk_level":"Yellow",
+         "justification":"IP address is collected, which can reveal approximate location. This is used for website analytics and potentially cross-context behavioral advertising.",
+         "snippet":"Name, email address, IP address, unique online identifiers...Your device when you use the Website...for us or our service providers/third parties) such as providing customer service, cross-context behavioral advertising, and website analytics."
+      },
+      "Collecting PII of Children":{
+         "application":"Zellepay.com Website",
+         "risk_level":"Green",
+         "justification":"The website is not intended for children under 13, and they do not knowingly collect information from this age group.",
+         "snippet":"Our Website is not intended for children under the age of 13. We do not knowingly solicit or collect information from individuals under the age of 13."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Zellepay.com Website",
+         "risk_level":"Yellow",
+         "justification":"Personal Information may be disclosed to law enforcement, government agencies, and other authorized third parties when legally required.",
+         "snippet":"law enforcement, government agencies, and other authorized third parties (to whom we may be required by law to disclose information)"
+      },
+      "Policy Change Notification":{
+         "application":"Zellepay.com Website",
+         "risk_level":"Yellow",
+         "justification":"Material changes to the Privacy Notice may be communicated by placing a notice on the Website, and users are advised to check frequently for updates.",
+         "snippet":"From time to time, we may update this Privacy Notice. We may notify you about material changes in the way we treat Personal Information by placing a notice on the Website. You should check the Website frequently for updates."
+      },
+      "Control of Data":{
+         "application":"Zellepay.com Website",
+         "risk_level":"Yellow",
+         "justification":"Users can manage cookie preferences, opt out of cross-context behavioral advertising, and B2B contacts have rights to access, correct, and delete their data.",
+         "snippet":"To change your cookie preferences/disable/opt-out of certain cookies (including cross-context behavioral advertising), visit our Cookie Preferences...If you are a California resident and you’ve interacted with us on behalf of your company/business...the following data privacy rights are available to you: Access data, Correct inaccurate data, Delete data, Opt out."
+      },
+      "Data Aggregation":{
+         "application":"Zellepay.com Website",
+         "risk_level":"Green",
+         "justification":"While website analytics are mentioned, the policy does not explicitly detail the aggregation or de-identification of personal data for other purposes.",
+         "snippet":"for us or our service providers/third parties) such as providing customer service, cross-context behavioral advertising, and website analytics...We collect Personal Information when you use the Website, including: a. From your device: We and our service providers/third parties collect technical data about your device (e.g., website usage data);"
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Pinterest",
+         "risk_level":"Yellow",
+         "justification":"Collected when joining the service and used for identification, communication, and account recovery.",
+         "snippet":"When you join our Services, we collect information like your name, email address, birthday, gender, country of residence, your interests, and preferred language...Send you updates, including by email, push notification, SMS, or phone. You can unsubscribe from our promotional emails at any time..."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Pinterest",
+         "risk_level":"Green",
+         "justification":"Not explicitly mentioned in the privacy policy as being collected.",
+         "snippet":"When you join our Services, we collect information like your name, email address, birthday, gender, country of residence, your interests, and preferred language...We collect information when you save or upload Pins, photos, or other content..."
+      },
+      "Social Security Number":{
+         "application":"Pinterest",
+         "risk_level":"Green",
+         "justification":"Not mentioned in the privacy policy as being collected.",
+         "snippet":"When you join our Services, we collect information like your name, email address, birthday, gender, country of residence, your interests, and preferred language...We collect information when you save or upload Pins, photos, or other content..."
+      },
+      "Ads and Marketing":{
+         "application":"Pinterest",
+         "risk_level":"Yellow",
+         "justification":"Information is used to personalize ads on and off Pinterest, and data may be shared with advertising partners. Users can opt out of targeted advertising.",
+         "snippet":"To do that, we show you personalized content and ads we think you’ll be interested in based on information we collect from you and other parties...Specifically, we use the information we collect to: Decide which ads to show you directly on Pinterest, and, depending on where you live, enabling Pinterest directly or through partners to show you ads both on and off Pinterest...Some of these activities may be considered “targeted advertising” “sharing” or “selling” as those terms are defined under certain state privacy laws in the US. You can opt out of Pinterest using and disclosing your information for these purposes."
+      },
+      "Location":{
+         "application":"Pinterest",
+         "risk_level":"Yellow",
+         "justification":"Precise location can be shared via device settings with user consent. IP address is used to infer approximate location. Location data may be used to customize user experience and show relevant content/ads.",
+         "snippet":"Depending on where you live, you can choose to share your precise location using your device settings...We use your IP address to infer your approximate location, even if you don't choose to share your precise location, and photos you share may include information about the location where they were taken...Depending on where you live, and with your consent, identify your precise location and customize your experience on our Services."
+      },
+      "Collecting PII of Children":{
+         "application":"Pinterest",
+         "risk_level":"Yellow",
+         "justification":"Children under 13 are not allowed to use Pinterest. Users in regions with older age requirements must meet that age to consent to data processing.",
+         "snippet":"Children under 13 are not allowed to use Pinterest. If you are based in a state or country with an older age requirement, you may only use the Services if you are at or over the age at which you can provide consent to data processing."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Pinterest",
+         "risk_level":"Yellow",
+         "justification":"Account information may be disclosed to law enforcement agencies, government agencies, researchers, or other parties in compliance with laws, rules, or regulations, when deemed reasonably necessary.",
+         "snippet":"With law enforcement agencies, government agencies, researchers, or other parties in compliance with laws, rules, or regulations. For example, we may get requests for account information from law enforcement authorities like the police or courts. We only disclose information in response to such requests if we believe that disclosure is reasonably necessary to comply with a law, regulation or legal request; to protect the safety, rights, or property of the public, any person, or Pinterest; or to detect, prevent, or otherwise address fraud, security or technical issues."
+      },
+      "Policy Change Notification":{
+         "application":"Pinterest",
+         "risk_level":"Yellow",
+         "justification":"Changes to the privacy policy will be posted on the website. Significant changes may be communicated more prominently, such as via email.",
+         "snippet":"We may change this policy from time to time and if we do, we’ll post any changes on this page. If you continue to use Pinterest after those changes are in effect, the new policy applies to you. If the changes are significant, we may provide a more prominent notice, such as by sending you an email."
+      },
+      "Control of Data":{
+         "application":"Pinterest",
+         "risk_level":"Yellow",
+         "justification":"Users have rights to access, correct, and delete their information, and can opt out of targeted advertising through their account settings.",
+         "snippet":"Access: You can request access to the information we collect and hold about you in a portable format...Correction/rectification: You can correct your information by updating information in your profile...Deletion/erasure: You can have your information deleted...Opt out of “targeted advertising” “sharing” or “sale”: You may opt out at any time by following the instructions in your Privacy and Data Settings menu."
+      },
+      "Data Aggregation":{
+         "application":"Pinterest",
+         "risk_level":"Yellow",
+         "justification":"The policy mentions creating aggregated or de-identified information for analytics and research purposes.",
+         "snippet":"Create aggregated or de-identified information that cannot reasonably be used to identify you. Pinterest processes, maintains, and uses this information only in a de-identified fashion for the purposes of this Privacy Policy and will not attempt to re-identify such information."
+      }
+   }
+],
+[
+   {
+      "Email Address":{
+         "application":"Adobe Services and Software",
+         "risk_level":"Yellow",
+         "justification":"Collected for Adobe ID, registration, customer support, and marketing communications (with opt-out).",
+         "snippet":"When you register to use an Adobe Service, create an Adobe ID...Adobe collects information that identifies you. This includes: Email address...Emails we send you may include a technology (called a web beacon) that collects Analytics or other electronic network activity, such as whether you have received or opened the email...If you do not want us to collect this information, you can opt out of receiving Adobe marketing emails."
+      },
+      "Credit Card Number and Home Address":{
+         "application":"Adobe Services and Software",
+         "risk_level":"Yellow",
+         "justification":"Collected for payment/billing purposes when a service or software is paid for. Postal or Physical Address is also collected for identification and potentially billing.",
+         "snippet":"Commercial and transaction information, such as: Payment/billing information (where an app or website is 'paid for')...Identifiers and contact information, such as: Postal or Physical Address."
+      },
+      "Social Security Number":{
+         "application":"Adobe Services and Software",
+         "risk_level":"Green",
+         "justification":"Not explicitly mentioned in the privacy policy as being collected.",
+         "snippet":"When you register to use an Adobe Service, create an Adobe ID...Adobe collects information that identifies you. This includes: Name; Email address; Telephone number; Postal or Physical Address; Country; Payment/billing information..."
+      },
+      "Ads and Marketing":{
+         "application":"Adobe Services and Software",
+         "risk_level":"Yellow",
+         "justification":"Personal information is used for Adobe's online advertising, and may be shared with advertising and sales partners. Users can withdraw consent or object to direct marketing.",
+         "snippet":"Adobe advertises online in a variety of ways, including displaying Adobe ads to you on other companies' websites and apps and on social media platforms...We will also disclose your personal information with other third-party data controllers with your consent (where necessary) or to provide any product or service you have requested (e.g., third-party integrations). The types of third parties your information may be disclosed to include: our resellers and other sales and advertising partners...Withdrawing consent or otherwise objecting to direct marketing."
+      },
+      "Location":{
+         "application":"Adobe Services and Software",
+         "risk_level":"Yellow",
+         "justification":"IP address is collected, which can reveal approximate location. Precise geolocation may be collected with consent for certain features.",
+         "snippet":"Analytics or other electronic network activity, such as: IP address...Sensitive personal information, such as: ... and precise geolocation. Where required by law, we will seek any required permissions from you prior to any such collection."
+      },
+      "Collecting PII of Children":{
+         "application":"Adobe Services and Software",
+         "risk_level":"Yellow",
+         "justification":"Children under 13 are not allowed to use Adobe websites and apps, and Adobe does not knowingly collect personal information from them.",
+         "snippet":"Can children use Adobe websites and apps? Children under 13 are not allowed to use Adobe websites and apps, and Adobe does not knowingly collect personal information from them. If you believe your child has provided us with personal information, please contact us..."
+      },
+      "Sharing with Law Enforcement":{
+         "application":"Adobe Services and Software",
+         "risk_level":"Yellow",
+         "justification":"Personal information may be disclosed to government or law enforcement authorities in response to requests, legal process, or to address fraud, security, or illegal activities.",
+         "snippet":"For legal reasons: Responding to requests by government or law enforcement authorities conducting an investigation...Using or disclosing information as reasonably necessary to detect, prevent, or otherwise address fraud, security, potential deceptive or illegal activities..."
+      },
+      "Policy Change Notification":{
+         "application":"Adobe Services and Software",
+         "risk_level":"Yellow",
+         "justification":"The privacy policy may change, and updates will be posted on the website. Users are advised to check periodically.",
+         "snippet":"Will this privacy policy change? We may update our privacy policy periodically and will post any changes on this page. If the changes are significant, we will provide a more prominent notice by email or in-app notification."
+      },
+      "Control of Data":{
+         "application":"Adobe Services and Software",
+         "risk_level":"Yellow",
+         "justification":"Users have rights regarding their personal information, including access, correction, deletion, and the ability to withdraw consent or object to processing. State-specific rights are also mentioned.",
+         "snippet":"What rights do I have regarding my personal information and how can I exercise these?...What rights do I have in my state?...Withdrawing consent or otherwise objecting to direct marketing."
+      },
+      "Data Aggregation":{
+         "application":"Adobe Services and Software",
+         "risk_level":"Yellow",
+         "justification":"Adobe may disclose or publish aggregate information that doesn't specifically identify individuals, such as statistical information about website visitors or product usage.",
+         "snippet":"We may disclose or publish aggregate information that doesn’t specifically identify you, such as statistical information about visitors to our websites or statistical information about how customers use the Adobe Experience Cloud."
+      }
+   }
+]]
